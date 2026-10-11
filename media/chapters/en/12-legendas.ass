@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:06.41,Default,,0,0,0,,As we follow the path a light flickers In our story this\Nrepresents noise Quantum systems
+Dialogue: 0,0:00:06.42,0:00:10.24,Default,,0,0,0,,interact with their surroundings and imperfect\Noperations can change the state we want to
+Dialogue: 0,0:00:10.25,0:00:15.91,Default,,0,0,0,,preserve There are bit errors phase errors and other\Nkinds of disturbance Engineers
+Dialogue: 0,0:00:15.92,0:00:21.07,Default,,0,0,0,,improve isolation calibrate controls and develop ways to\Ndetect and correct errors An
+Dialogue: 0,0:00:21.08,0:00:25.68,Default,,0,0,0,,ideal simulator helps us understand the circuit's\Nintended behavior A noise model can
+Dialogue: 0,0:00:25.69,0:00:30.22,Default,,0,0,0,,explore some imperfections Neither kind of test should\Nbe confused with a result measured
+Dialogue: 0,0:00:30.23,0:00:34.30,Default,,0,0,0,,on a physical computer We must always say where the\Nexperiment was run and which
+Dialogue: 0,0:00:34.31,0:00:35.29,Default,,0,0,0,,assumptions we used

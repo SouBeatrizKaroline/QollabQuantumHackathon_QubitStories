@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.23,Default,,0,0,0,,En el bosque dos ondas atraviesan el lago En algunos\Npuntos se refuerzan en otros se
+Dialogue: 0,0:00:05.24,0:00:10.13,Default,,0,0,0,,cancelan Es una metáfora visual de la interferencia En\Nun circuito cuántico lo que
+Dialogue: 0,0:00:10.14,0:00:14.61,Default,,0,0,0,,interfiere son amplitudes no pequeñas bolitas que eligen\Ncaminos por voluntad propia Las
+Dialogue: 0,0:00:14.62,0:00:17.94,Default,,0,0,0,,operaciones bien planificadas pueden aumentar la\Nprobabilidad de ciertos resultados y
+Dialogue: 0,0:00:17.95,0:00:22.97,Default,,0,0,0,,disminuir la de otros Este mecanismo participa en muchos\Nalgoritmos cuánticos Pero
+Dialogue: 0,0:00:22.98,0:00:27.10,Default,,0,0,0,,necesitamos conocer la estructura del problema y\Nconstruir el circuito adecuado No basta
+Dialogue: 0,0:00:27.11,0:00:30.20,Default,,0,0,0,,con encender una computadora cuántica para que encuentre\Nautomáticamente la mejor
+Dialogue: 0,0:00:30.21,0:00:33.92,Default,,0,0,0,,respuesta La interferencia es una herramienta que\Ndebemos usar con intención

@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.25,Default,,0,0,0,,A qubit is a unit of quantum information When we use the\Nbasis we call zero and one we
+Dialogue: 0,0:00:05.26,0:00:09.33,Default,,0,0,0,,can prepare a state associated with zero with one or\Nwith a superposition of those two
+Dialogue: 0,0:00:09.34,0:00:14.77,Default,,0,0,0,,basis states You may hear that a qubit is zero and one\Nat the same time That phrase is an
+Dialogue: 0,0:00:14.78,0:00:18.97,Default,,0,0,0,,approximation that can be confusing It is more careful\Nto say that its state can be a
+Dialogue: 0,0:00:18.98,0:00:23.29,Default,,0,0,0,,quantum combination of the basis states The glowing\Nsphere in our story is only a
+Dialogue: 0,0:00:23.30,0:00:27.78,Default,,0,0,0,,character representing this idea A real qubit can be\Nimplemented using very different
+Dialogue: 0,0:00:27.79,0:00:30.88,Default,,0,0,0,,physical systems such as ions or superconducting\Ncircuits

@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:04.31,Default,,0,0,0,,A imagem das lanternas pode dar a impressão de que uma\Nenvia uma mensagem instantânea
+Dialogue: 0,0:00:04.32,0:00:08.72,Default,,0,0,0,,para a outra Essa interpretação está errada Quem mede um\Ndos qubits não pode escolher
+Dialogue: 0,0:00:08.73,0:00:13.43,Default,,0,0,0,,livremente o resultado para transmitir uma frase Vistos\Nindividualmente os resultados do
+Dialogue: 0,0:00:13.45,0:00:18.21,Default,,0,0,0,,exemplo parecem aleatórios Para comparar as correlações\Nas pessoas precisam compartilhar
+Dialogue: 0,0:00:18.22,0:00:22.41,Default,,0,0,0,,informações por um canal comum respeitando os limites\Nusuais da comunicação O
+Dialogue: 0,0:00:22.42,0:00:26.11,Default,,0,0,0,,emaranhamento é uma propriedade importante da natureza e\Npode ser um recurso para
+Dialogue: 0,0:00:26.12,0:00:30.43,Default,,0,0,0,,tecnologias quânticas Mas não transforma a nossa\Nfloresta num telefone mais rápido que a
+Dialogue: 0,0:00:30.44,0:00:34.92,Default,,0,0,0,,luz A metáfora deve ajudar a entender sem criar um poder\Nque a física não oferece

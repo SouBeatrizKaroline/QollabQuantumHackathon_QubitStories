@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:04.73,Default,,0,0,0,,Nossa exploradora chega ao observatório Agora ela sabe\Nque um bit tem dois valores
+Dialogue: 0,0:00:04.74,0:00:09.09,Default,,0,0,0,,possíveis que um qubit pode ser preparado em\Nsuperposição e que uma medição nessa base
+Dialogue: 0,0:00:09.11,0:00:12.90,Default,,0,0,0,,entrega um resultado Ela aprendeu que a fase e a\Ninterferência importam que o
+Dialogue: 0,0:00:12.91,0:00:16.73,Default,,0,0,0,,emaranhamento descreve um estado conjunto e que a\Nengenharia precisa enfrentar erros
+Dialogue: 0,0:00:16.95,0:00:20.81,Default,,0,0,0,,Também descobriu que os desenhos são metáforas e que\Nciência não significa prometer
+Dialogue: 0,0:00:20.82,0:00:25.72,Default,,0,0,0,,resultados mágicos A floresta continua cheia de caminhos\NQual experiência você gostaria
+Dialogue: 0,0:00:25.73,0:00:30.27,Default,,0,0,0,,de fazer agora Continue perguntando comparando e\Naprendendo O nosso maior poder é
+Dialogue: 0,0:00:30.28,0:00:32.60,Default,,0,0,0,,entender um pouco melhor como a natureza funciona

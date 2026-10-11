@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:05.11,Default,,0,0,0,,Vamos transformar a metáfora num teste Começamos com\Nzero e aplicamos uma Hadamard Se
+Dialogue: 0,0:00:05.12,0:00:09.55,Default,,0,0,0,,medirmos agora teremos chances iguais de zero e um\NPodemos mudar a fase relativa e
+Dialogue: 0,0:00:09.56,0:00:14.13,Default,,0,0,0,,continuar observando essas mesmas probabilidades nessa\Nbase A diferença fica visível
+Dialogue: 0,0:00:14.14,0:00:18.76,Default,,0,0,0,,quando aplicamos mais uma Hadamard antes de medir Sem\Nmudança de fase voltamos ao zero
+Dialogue: 0,0:00:18.98,0:00:23.64,Default,,0,0,0,,Com uma mudança de cento e oitenta graus obtemos um Com\Nnoventa graus os resultados ficam
+Dialogue: 0,0:00:23.65,0:00:28.46,Default,,0,0,0,,equilibrados Percebe a diferença A fase pode estar\Nescondida numa escolha de medição e
+Dialogue: 0,0:00:28.47,0:00:33.12,Default,,0,0,0,,aparecer em outra Uma moeda clássica desconhecida não\Nreproduz sozinha esse comportamento

@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:04.56,Default,,0,0,0,,Nuestra exploradora llega al observatorio Ahora sabe que\Nun bit tiene dos valores
+Dialogue: 0,0:00:04.57,0:00:08.35,Default,,0,0,0,,posibles que un cúbit puede prepararse en superposición\Ny que una medición en esta base
+Dialogue: 0,0:00:08.36,0:00:12.28,Default,,0,0,0,,entrega un resultado Aprendió que la fase y la\Ninterferencia importan que el
+Dialogue: 0,0:00:12.29,0:00:15.95,Default,,0,0,0,,entrelazamiento describe un estado conjunto y que la\Ningeniería debe enfrentar errores
+Dialogue: 0,0:00:16.64,0:00:20.12,Default,,0,0,0,,También descubrió que los dibujos son metáforas y que la\Nciencia no significa prometer
+Dialogue: 0,0:00:20.13,0:00:25.72,Default,,0,0,0,,resultados mágicos El bosque sigue lleno de caminos Qué\Nexperimento te gustaría realizar
+Dialogue: 0,0:00:25.73,0:00:31.03,Default,,0,0,0,,ahora Sigue preguntando comparando y aprendiendo Nuestro\Nmayor poder es entender un poco
+Dialogue: 0,0:00:31.04,0:00:32.63,Default,,0,0,0,,mejor cómo funciona la naturaleza

@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.09,Default,,0,0,0,,Si una moneda está escondida dentro de una caja quizá no\Nsepas si muestra cara o cruz Esa
+Dialogue: 0,0:00:05.10,0:00:09.30,Default,,0,0,0,,falta de conocimiento no es lo mismo que una\Nsuperposición cuántica Para describir un
+Dialogue: 0,0:00:09.31,0:00:13.98,Default,,0,0,0,,cúbit usamos amplitudes Estas determinan las\Nprobabilidades de los resultados y también
+Dialogue: 0,0:00:13.99,0:00:18.00,Default,,0,0,0,,llevan una relación llamada fase Esa fase será\Nimportante cuando las amplitudes
+Dialogue: 0,0:00:18.01,0:00:22.27,Default,,0,0,0,,interfieran Un estado puede ofrecer las mismas\Nprobabilidades de cero y uno pero otros
+Dialogue: 0,0:00:22.28,0:00:26.47,Default,,0,0,0,,estados pueden tener probabilidades diferentes No es\Ncorrecto afirmar que todo cúbit
+Dialogue: 0,0:00:26.48,0:00:30.64,Default,,0,0,0,,siempre tiene un cincuenta por ciento de probabilidad\Npara cada resultado Todo depende de
+Dialogue: 0,0:00:30.65,0:00:32.25,Default,,0,0,0,,la preparación y de cómo lo medimos

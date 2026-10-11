@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.65,Default,,0,0,0,,Let's turn the metaphor into a test Start with zero and\Napply a Hadamard If we measure
+Dialogue: 0,0:00:05.66,0:00:10.18,Default,,0,0,0,,now we have equal chances of zero and one We can change\Nthe relative phase and still
+Dialogue: 0,0:00:10.19,0:00:14.19,Default,,0,0,0,,observe those same probabilities in this basis The\Ndifference becomes visible when we
+Dialogue: 0,0:00:14.20,0:00:19.43,Default,,0,0,0,,apply another Hadamard before measuring With no phase\Nchange we return to zero With a
+Dialogue: 0,0:00:19.44,0:00:24.03,Default,,0,0,0,,change of one hundred and eighty degrees we obtain one\NWith ninety degrees the outcomes
+Dialogue: 0,0:00:24.04,0:00:28.78,Default,,0,0,0,,are balanced Do you see the difference Phase can be\Nhidden by one measurement choice and
+Dialogue: 0,0:00:28.79,0:00:33.19,Default,,0,0,0,,revealed by another An unknown classical coin alone does\Nnot reproduce this behavior

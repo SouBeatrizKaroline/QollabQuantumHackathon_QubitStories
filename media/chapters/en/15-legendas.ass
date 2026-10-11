@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.34,Default,,0,0,0,,Now we can move beyond imagination and test the ideas\NQubit Stories brings together three
+Dialogue: 0,0:00:05.35,0:00:10.56,Default,,0,0,0,,videos The World of Qubits O Mundo dos Qubits and The\NFellowship of the Qubit Each
+Dialogue: 0,0:00:10.57,0:00:15.01,Default,,0,0,0,,experiment points to the corresponding part of the story\NBefore revealing the results
+Dialogue: 0,0:00:15.17,0:00:19.64,Default,,0,0,0,,write your prediction Run the circuits on a free\Nsimulator compare the counts with ideal
+Dialogue: 0,0:00:19.65,0:00:24.70,Default,,0,0,0,,probabilities and explain what changed Try different\Nphases observe the entangled pair
+Dialogue: 0,0:00:24.89,0:00:29.50,Default,,0,0,0,,and compare unprotected information with bit-flip\Nrecovery Learning is not just repeating
+Dialogue: 0,0:00:29.51,0:00:34.52,Default,,0,0,0,,difficult words It is asking questions making\Npredictions and discovering how to check an
+Dialogue: 0,0:00:34.53,0:00:35.22,Default,,0,0,0,,explanation

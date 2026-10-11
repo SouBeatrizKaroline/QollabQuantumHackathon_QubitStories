@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.46,Default,,0,0,0,,Ahora podemos salir de la imaginación y probar las ideas\NQubit Stories reúne tres videos
+Dialogue: 0,0:00:05.69,0:00:10.07,Default,,0,0,0,,The World of Qubits O Mundo dos Qubits y The Fellowship\Nof the Qubit Cada experimento
+Dialogue: 0,0:00:10.08,0:00:14.29,Default,,0,0,0,,señala el fragmento correspondiente de la historia Antes\Nde revelar los resultados
+Dialogue: 0,0:00:14.50,0:00:19.19,Default,,0,0,0,,escribe tu predicción Ejecuta los circuitos en un\Nsimulador gratuito compara los conteos
+Dialogue: 0,0:00:19.20,0:00:23.88,Default,,0,0,0,,con las probabilidades ideales y explica qué cambió\NPrueba diferentes fases observa el
+Dialogue: 0,0:00:23.89,0:00:27.40,Default,,0,0,0,,par entrelazado y compara la información desprotegida\Ncon la recuperación del error de
+Dialogue: 0,0:00:27.41,0:00:32.78,Default,,0,0,0,,bit Aprender no es solo repetir palabras difíciles Es\Nhacer preguntas formular
+Dialogue: 0,0:00:32.79,0:00:35.23,Default,,0,0,0,,predicciones y descubrir cómo comprobar una explicación

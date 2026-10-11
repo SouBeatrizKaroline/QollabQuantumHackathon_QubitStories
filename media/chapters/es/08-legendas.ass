@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.42,0:00:05.29,Default,,0,0,0,,Transformemos la metáfora en una prueba Comenzamos con\Ncero y aplicamos una Hadamard Si
+Dialogue: 0,0:00:05.30,0:00:09.64,Default,,0,0,0,,medimos ahora tendremos las mismas probabilidades de\Ncero y uno Podemos cambiar la fase
+Dialogue: 0,0:00:09.65,0:00:13.65,Default,,0,0,0,,relativa y seguir observando esas mismas probabilidades\Nen esta base La diferencia se
+Dialogue: 0,0:00:13.66,0:00:17.43,Default,,0,0,0,,vuelve visible cuando aplicamos otra Hadamard antes de\Nmedir Sin cambio de fase
+Dialogue: 0,0:00:17.67,0:00:22.43,Default,,0,0,0,,regresamos al cero Con un cambio de ciento ochenta\Ngrados obtenemos uno Con noventa
+Dialogue: 0,0:00:22.44,0:00:27.67,Default,,0,0,0,,grados los resultados quedan equilibrados Ves la\Ndiferencia La fase puede quedar oculta
+Dialogue: 0,0:00:27.68,0:00:31.50,Default,,0,0,0,,con una elección de medición y aparecer con otra Una\Nmoneda clásica desconocida no
+Dialogue: 0,0:00:31.51,0:00:33.21,Default,,0,0,0,,reproduce por sí sola este comportamiento

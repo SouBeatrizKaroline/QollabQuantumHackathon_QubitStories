@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:04.99,Default,,0,0,0,,Vamos conhecer uma pequena demonstração Codificamos uma\Ninformação lógica em três qubits
+Dialogue: 0,0:00:05.00,0:00:09.62,Default,,0,0,0,,físicos e introduzimos de propósito um único erro de bit\NDepois um circuito de
+Dialogue: 0,0:00:09.63,0:00:13.91,Default,,0,0,0,,recuperação consegue devolver o qubit lógico ao estado\Npreparado O importante é não
+Dialogue: 0,0:00:13.93,0:00:18.44,Default,,0,0,0,,exagerar a conclusão Esse código de repetição simples\Ncorrige um erro do tipo xis nas
+Dialogue: 0,0:00:18.45,0:00:23.01,Default,,0,0,0,,condições do exemplo Ele não corrige automaticamente\Ntodos os erros não protege contra
+Dialogue: 0,0:00:23.02,0:00:27.07,Default,,0,0,0,,qualquer ruído e não demonstra um computador tolerante a\Nfalhas Também não estamos
+Dialogue: 0,0:00:27.08,0:00:31.48,Default,,0,0,0,,fazendo três cópias independentes de um estado quântico\Ndesconhecido Estamos codificando
+Dialogue: 0,0:00:31.49,0:00:34.74,Default,,0,0,0,,a informação num estado conjunto respeitando as regras\Nquânticas

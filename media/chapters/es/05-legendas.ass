@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.42,0:00:05.24,Default,,0,0,0,,Ahora Kubi llega a una puerta con dos salidas cero y uno\NEn nuestro ejemplo el cúbit se
+Dialogue: 0,0:00:05.25,0:00:09.42,Default,,0,0,0,,preparó con probabilidades iguales Cuando medimos en\Nesta base obtenemos un solo
+Dialogue: 0,0:00:09.43,0:00:14.80,Default,,0,0,0,,resultado No recibimos una lista de todas las\Nposibilidades Imaginemos cien experimentos
+Dialogue: 0,0:00:15.44,0:00:19.84,Default,,0,0,0,,En cada uno preparamos nuevamente el mismo estado y\Ndespués hacemos la medición Podemos
+Dialogue: 0,0:00:19.85,0:00:23.52,Default,,0,0,0,,obtener aproximadamente cincuenta ceros y cincuenta unos\Npero las cantidades exactas
+Dialogue: 0,0:00:23.53,0:00:28.37,Default,,0,0,0,,varían Repetir la preparación es esencial Medir otra vez\Nel mismo cúbit inmediatamente
+Dialogue: 0,0:00:28.38,0:00:32.04,Default,,0,0,0,,después de la primera medición sin una transformación\Nadicional no equivale a realizar un
+Dialogue: 0,0:00:32.05,0:00:33.29,Default,,0,0,0,,nuevo experimento independiente

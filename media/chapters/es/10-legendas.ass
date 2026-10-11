@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:03.84,Default,,0,0,0,,La imagen de las linternas puede dar la impresión de que\Nuna envía un mensaje instantáneo
+Dialogue: 0,0:00:03.85,0:00:08.70,Default,,0,0,0,,a la otra Esa interpretación es incorrecta Quien mide\Nuno de los cúbits no puede elegir
+Dialogue: 0,0:00:08.71,0:00:13.09,Default,,0,0,0,,libremente el resultado para transmitir una frase\NConsiderados individualmente los
+Dialogue: 0,0:00:13.10,0:00:17.55,Default,,0,0,0,,resultados del ejemplo parecen aleatorios Para comparar\Nlas correlaciones las personas
+Dialogue: 0,0:00:17.56,0:00:21.20,Default,,0,0,0,,necesitan compartir información por un canal común\Nrespetando los límites habituales de
+Dialogue: 0,0:00:21.21,0:00:25.26,Default,,0,0,0,,la comunicación El entrelazamiento es una propiedad\Nimportante de la naturaleza y puede
+Dialogue: 0,0:00:25.27,0:00:29.38,Default,,0,0,0,,ser un recurso para las tecnologías cuánticas Pero no\Nconvierte nuestro bosque en un
+Dialogue: 0,0:00:29.39,0:00:33.87,Default,,0,0,0,,teléfono más rápido que la luz La metáfora debe ayudar a\Nentender sin inventar un poder
+Dialogue: 0,0:00:33.88,0:00:34.98,Default,,0,0,0,,que la física no ofrece

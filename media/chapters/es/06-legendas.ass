@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:04.74,Default,,0,0,0,,Para cambiar el estado de un cúbit usamos operaciones\Nllamadas puertas cuánticas La
+Dialogue: 0,0:00:04.75,0:00:09.09,Default,,0,0,0,,puerta equis intercambia los estados cero y uno La\Npuerta Hadamard representada por la
+Dialogue: 0,0:00:09.10,0:00:12.75,Default,,0,0,0,,letra hache transforma un cero en una superposición con\Nprobabilidades iguales en la base
+Dialogue: 0,0:00:12.76,0:00:17.69,Default,,0,0,0,,de medición Otras puertas cambian la fase o realizan\Nrotaciones Podemos dibujar estas
+Dialogue: 0,0:00:17.70,0:00:21.46,Default,,0,0,0,,operaciones sobre una línea primero preparamos el estado\Ndespués aplicamos las puertas y
+Dialogue: 0,0:00:21.47,0:00:26.84,Default,,0,0,0,,finalmente medimos Ese dibujo es un circuito cuántico El\Norden de las operaciones importa
+Dialogue: 0,0:00:27.49,0:00:31.22,Default,,0,0,0,,Como en una receta cambiar los pasos puede cambiar el\Nresultado y una operación aislada
+Dialogue: 0,0:00:31.23,0:00:33.17,Default,,0,0,0,,no explica el comportamiento de todo el circuito

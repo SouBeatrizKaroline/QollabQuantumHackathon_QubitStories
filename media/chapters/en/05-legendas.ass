@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.64,Default,,0,0,0,,Now Kubi reaches a gate with two exits zero and one In\Nour example the qubit was prepared
+Dialogue: 0,0:00:05.65,0:00:10.92,Default,,0,0,0,,with equal chances When we measure in this basis we\Nobtain a single result We do not
+Dialogue: 0,0:00:10.93,0:00:16.28,Default,,0,0,0,,receive a list of every possibility Imagine one hundred\Nexperiments In each one we
+Dialogue: 0,0:00:16.29,0:00:20.74,Default,,0,0,0,,prepare the same state again and then measure it We may\Nobtain approximately fifty zeros
+Dialogue: 0,0:00:20.75,0:00:25.16,Default,,0,0,0,,and fifty ones but the exact numbers vary Repeating the\Npreparation is essential
+Dialogue: 0,0:00:25.85,0:00:29.34,Default,,0,0,0,,Measuring the same qubit again immediately after the\Nfirst measurement without an
+Dialogue: 0,0:00:29.34,0:00:33.24,Default,,0,0,0,,additional transformation is not equivalent to\Nperforming a new independent experiment

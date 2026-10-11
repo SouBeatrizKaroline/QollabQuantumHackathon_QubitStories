@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.29,Default,,0,0,0,,In the forest two waves cross the lake In some places\Nthey reinforce each other in others
+Dialogue: 0,0:00:05.42,0:00:10.70,Default,,0,0,0,,they cancel This is a visual metaphor for interference\NIn a quantum circuit the things
+Dialogue: 0,0:00:10.71,0:00:14.25,Default,,0,0,0,,that interfere are amplitudes not little balls that\Nchoose paths of their own accord
+Dialogue: 0,0:00:14.92,0:00:18.34,Default,,0,0,0,,Carefully planned operations can increase the\Nprobability of certain outcomes and
+Dialogue: 0,0:00:18.35,0:00:23.02,Default,,0,0,0,,decrease the probability of others This mechanism plays\Na role in many quantum algorithms
+Dialogue: 0,0:00:23.70,0:00:27.88,Default,,0,0,0,,But we must understand the problem's structure and build\Nan appropriate circuit Turning
+Dialogue: 0,0:00:27.89,0:00:32.32,Default,,0,0,0,,on a quantum computer does not automatically make it\Nfind the best answer Interference is
+Dialogue: 0,0:00:32.33,0:00:33.92,Default,,0,0,0,,a tool that must be used with purpose

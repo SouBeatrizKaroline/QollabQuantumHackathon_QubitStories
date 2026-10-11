@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.30,Default,,0,0,0,,If a coin is hidden inside a box you may not know\Nwhether it shows heads or tails That
+Dialogue: 0,0:00:05.31,0:00:10.10,Default,,0,0,0,,lack of knowledge is not the same as quantum\Nsuperposition To describe a qubit we use
+Dialogue: 0,0:00:10.11,0:00:14.97,Default,,0,0,0,,amplitudes They determine outcome probabilities and also\Ncarry a relationship called
+Dialogue: 0,0:00:14.98,0:00:20.40,Default,,0,0,0,,phase This phase will matter when the amplitudes\Ninterfere A state can offer equal
+Dialogue: 0,0:00:20.41,0:00:25.22,Default,,0,0,0,,chances of zero and one but other states can have\Ndifferent probabilities It is not
+Dialogue: 0,0:00:25.23,0:00:28.90,Default,,0,0,0,,correct to say that every qubit always has a fifty\Npercent chance of each result
+Dialogue: 0,0:00:29.63,0:00:32.21,Default,,0,0,0,,Everything depends on preparation and on how we measure

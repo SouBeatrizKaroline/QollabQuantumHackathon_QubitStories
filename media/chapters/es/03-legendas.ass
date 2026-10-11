@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:04.75,Default,,0,0,0,,Un cúbit es una unidad de información cuántica Cuando\Nusamos la base que llamamos cero y
+Dialogue: 0,0:00:04.76,0:00:09.38,Default,,0,0,0,,uno podemos preparar un estado asociado al cero al uno o\Na una superposición de esos dos
+Dialogue: 0,0:00:09.39,0:00:14.56,Default,,0,0,0,,estados Quizá escuches que el cúbit es cero y uno al\Nmismo tiempo Esa frase es una
+Dialogue: 0,0:00:14.57,0:00:18.70,Default,,0,0,0,,aproximación que puede confundir Es más cuidadoso decir\Nque su estado puede ser una
+Dialogue: 0,0:00:18.71,0:00:22.90,Default,,0,0,0,,combinación cuántica de los estados de la base La esfera\Nluminosa de nuestra historia es
+Dialogue: 0,0:00:22.91,0:00:27.19,Default,,0,0,0,,solo un personaje que representa esta idea Un cúbit real\Npuede realizarse mediante
+Dialogue: 0,0:00:27.20,0:00:30.88,Default,,0,0,0,,sistemas físicos muy distintos como iones o circuitos\Nsuperconductores

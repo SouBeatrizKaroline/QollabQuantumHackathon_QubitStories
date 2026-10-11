@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.85,Default,,0,0,0,,Cómo construyen los ingenieros estos sistemas Existen\Nvarios enfoques En uno los
+Dialogue: 0,0:00:05.86,0:00:09.47,Default,,0,0,0,,circuitos superconductores funcionan a temperaturas\Nextremadamente bajas dentro de
+Dialogue: 0,0:00:09.48,0:00:13.70,Default,,0,0,0,,equipos especializados En otro los iones atrapados se\Ncontrolan con campos
+Dialogue: 0,0:00:13.71,0:00:19.20,Default,,0,0,0,,electromagnéticos y láseres También se investigan otras\Nplataformas No debemos imaginar
+Dialogue: 0,0:00:19.21,0:00:23.54,Default,,0,0,0,,que todas las computadoras cuánticas se construyen de la\Nmisma manera El bosque brillante
+Dialogue: 0,0:00:23.55,0:00:27.80,Default,,0,0,0,,representa un mundo de ideas en el laboratorio hay\Ninstrumentos calibración control
+Dialogue: 0,0:00:27.81,0:00:32.54,Default,,0,0,0,,electrónico y mucha ingeniería Las computadoras clásicas\Nsiguen participando organizan
+Dialogue: 0,0:00:32.55,0:00:37.88,Default,,0,0,0,,tareas controlan equipos y analizan resultados En la\Npráctica estas tecnologías trabajan
+Dialogue: 0,0:00:37.89,0:00:40.80,Default,,0,0,0,,juntas y no como rivales que necesitan sustituirse entre\Nsí

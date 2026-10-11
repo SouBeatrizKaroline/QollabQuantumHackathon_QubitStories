@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:05.01,Default,,0,0,0,,A exploradora encontra duas lanternas que representam um\Npar de qubits Podemos preparar
+Dialogue: 0,0:00:05.02,0:00:09.20,Default,,0,0,0,,um estado emaranhado usando uma Hadamard e uma porta\Ncontrolada chamada cê não Nesse
+Dialogue: 0,0:00:09.21,0:00:14.30,Default,,0,0,0,,exemplo ao medir os dois na base zero e um os resultados\Npodem ser zero zero ou um um O
+Dialogue: 0,0:00:14.31,0:00:18.98,Default,,0,0,0,,estado do par não pode ser descrito como dois estados\Nindividuais independentes Contudo
+Dialogue: 0,0:00:19.01,0:00:23.63,Default,,0,0,0,,observar resultados iguais numa única base não prova por\Nsi só que existe emaranhamento
+Dialogue: 0,0:00:23.85,0:00:28.34,Default,,0,0,0,,objetos clássicos também podem estar correlacionados Por\Nisso no nosso laboratório vamos
+Dialogue: 0,0:00:28.35,0:00:32.57,Default,,0,0,0,,além desse desenho e comparamos medições em diferentes\Nbases conhecendo o circuito que
+Dialogue: 0,0:00:32.58,0:00:33.24,Default,,0,0,0,,preparou o par.

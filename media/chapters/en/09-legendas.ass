@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.31,Default,,0,0,0,,The explorer finds two lanterns representing a pair of\Nqubits We can prepare an entangled
+Dialogue: 0,0:00:05.33,0:00:09.97,Default,,0,0,0,,state using a Hadamard and a controlled inversion gate\Nknown as controlled NOT In this
+Dialogue: 0,0:00:09.98,0:00:14.72,Default,,0,0,0,,example measuring both qubits in the zero and one basis\Ncan produce zero zero or one one
+Dialogue: 0,0:00:15.44,0:00:19.95,Default,,0,0,0,,The pair's state cannot be described as two independent\Nindividual states However
+Dialogue: 0,0:00:20.04,0:00:24.25,Default,,0,0,0,,observing matching results in a single basis does not by\Nitself prove entanglement
+Dialogue: 0,0:00:24.49,0:00:29.08,Default,,0,0,0,,classical objects can also be correlated That is why our\Nlaboratory goes beyond this
+Dialogue: 0,0:00:29.09,0:00:32.51,Default,,0,0,0,,drawing and compares measurements in different bases\Nwhile knowing the circuit that
+Dialogue: 0,0:00:32.52,0:00:33.26,Default,,0,0,0,,prepared the pair

@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:05.42,Default,,0,0,0,,Na floresta duas ondas atravessam o lago Em alguns\Npontos elas se reforçam em outros se
+Dialogue: 0,0:00:05.43,0:00:10.02,Default,,0,0,0,,cancelam É uma metáfora visual para a interferência No\Ncircuito quântico o que interfere
+Dialogue: 0,0:00:10.03,0:00:14.50,Default,,0,0,0,,são amplitudes não pequenas bolinhas que escolhem\Ncaminhos por vontade própria Operações
+Dialogue: 0,0:00:14.51,0:00:19.00,Default,,0,0,0,,bem planejadas podem aumentar a probabilidade de certos\Nresultados e diminuir a de outros
+Dialogue: 0,0:00:19.23,0:00:23.49,Default,,0,0,0,,Esse mecanismo participa de muitos algoritmos quânticos\NMas precisamos conhecer a
+Dialogue: 0,0:00:23.50,0:00:27.71,Default,,0,0,0,,estrutura do problema e construir o circuito adequado\NNão basta ligar um computador
+Dialogue: 0,0:00:27.77,0:00:31.77,Default,,0,0,0,,quântico para que ele encontre automaticamente a melhor\Nresposta A interferência é uma
+Dialogue: 0,0:00:31.78,0:00:33.87,Default,,0,0,0,,ferramenta que precisa ser usada com intenção

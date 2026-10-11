@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:05.31,Default,,0,0,0,,Possible applications inspire a great deal of curiosity\NOne is studying quantum systems
+Dialogue: 0,0:00:05.56,0:00:10.18,Default,,0,0,0,,such as certain molecules and materials using\Nappropriate models and algorithms There is
+Dialogue: 0,0:00:10.19,0:00:14.75,Default,,0,0,0,,research in optimization communication and sensors But\Nthe word quantum does not
+Dialogue: 0,0:00:14.76,0:00:19.38,Default,,0,0,0,,guarantee a better solution To discuss an advantage we\Nneed to compare methods costs
+Dialogue: 0,0:00:19.52,0:00:24.25,Default,,0,0,0,,accuracy and execution conditions Some problems will\Nremain more suitable for classical
+Dialogue: 0,0:00:24.26,0:00:29.44,Default,,0,0,0,,computers Others may benefit from approaches that\Ncombine classical and quantum tools In
+Dialogue: 0,0:00:29.45,0:00:34.34,Default,,0,0,0,,this adventure we learn concepts we do not demonstrate a\Ncomputational advantage Making
+Dialogue: 0,0:00:34.35,0:00:38.09,Default,,0,0,0,,that distinction is part of a good scientific\Nexplanation and it makes real discoveries
+Dialogue: 0,0:00:38.10,0:00:39.04,Default,,0,0,0,,even more interesting

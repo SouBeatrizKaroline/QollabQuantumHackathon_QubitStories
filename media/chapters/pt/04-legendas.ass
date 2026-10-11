@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:04.88,Default,,0,0,0,,Se uma moeda está escondida numa caixa talvez você não\Nsaiba se ela mostra cara ou coroa
+Dialogue: 0,0:00:05.11,0:00:09.15,Default,,0,0,0,,Essa falta de conhecimento não é a mesma coisa que uma\Nsuperposição quântica Para
+Dialogue: 0,0:00:09.16,0:00:13.95,Default,,0,0,0,,descrever um qubit usamos amplitudes Elas determinam as\Nprobabilidades dos resultados e
+Dialogue: 0,0:00:13.98,0:00:18.39,Default,,0,0,0,,também carregam uma relação chamada fase Essa fase será\Nimportante quando as amplitudes
+Dialogue: 0,0:00:18.40,0:00:23.36,Default,,0,0,0,,interferirem Um estado pode oferecer chances iguais de\Nzero e um mas outros estados podem
+Dialogue: 0,0:00:23.37,0:00:27.76,Default,,0,0,0,,ter probabilidades diferentes Não é correto afirmar que\Ntodo qubit sempre tem cinquenta
+Dialogue: 0,0:00:27.77,0:00:32.20,Default,,0,0,0,,por cento de chance para cada resultado Tudo depende da\Npreparação e da maneira de medir

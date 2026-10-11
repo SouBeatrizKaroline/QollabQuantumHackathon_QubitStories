@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:04.73,Default,,0,0,0,,Conozcamos una pequeña demostración Codificamos una\Ninformación lógica en tres cúbits
+Dialogue: 0,0:00:04.74,0:00:09.54,Default,,0,0,0,,físicos e introducimos a propósito un único error de bit\NDespués un circuito de
+Dialogue: 0,0:00:09.55,0:00:13.88,Default,,0,0,0,,recuperación puede devolver el cúbit lógico al estado\Npreparado Lo importante es no
+Dialogue: 0,0:00:13.89,0:00:18.32,Default,,0,0,0,,exagerar la conclusión Este código de repetición\Nsencillo corrige un error de tipo equis
+Dialogue: 0,0:00:18.33,0:00:22.81,Default,,0,0,0,,bajo las condiciones del ejemplo No corrige\Nautomáticamente todos los errores no protege
+Dialogue: 0,0:00:22.82,0:00:27.16,Default,,0,0,0,,contra cualquier ruido y no demuestra una computadora\Ntolerante a fallos Tampoco estamos
+Dialogue: 0,0:00:27.17,0:00:31.60,Default,,0,0,0,,haciendo tres copias independientes de un estado\Ncuántico desconocido Estamos codificando
+Dialogue: 0,0:00:31.61,0:00:34.80,Default,,0,0,0,,la información en un estado conjunto respetando las\Nreglas cuánticas

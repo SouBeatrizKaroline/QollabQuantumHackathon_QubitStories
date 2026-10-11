@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:04.73,Default,,0,0,0,,Quando seguimos pelo caminho uma luz vacila Na nossa\Nhistória isso representa o ruído
+Dialogue: 0,0:00:04.96,0:00:09.01,Default,,0,0,0,,Sistemas quânticos interagem com o ambiente e operações\Nimperfeitas podem alterar o
+Dialogue: 0,0:00:09.02,0:00:13.40,Default,,0,0,0,,estado que gostaríamos de preservar Há erros de bit\Nerros de fase e outras formas de
+Dialogue: 0,0:00:13.41,0:00:18.06,Default,,0,0,0,,perturbação Engenheiros melhoram o isolamento calibram\Ncontroles e desenvolvem maneiras
+Dialogue: 0,0:00:18.07,0:00:22.37,Default,,0,0,0,,de detectar e corrigir erros Um simulador ideal ajuda a\Nentender o comportamento
+Dialogue: 0,0:00:22.38,0:00:27.38,Default,,0,0,0,,planejado do circuito Um modelo de ruído pode explorar\Nalgumas imperfeições Nenhum desses
+Dialogue: 0,0:00:27.39,0:00:31.51,Default,,0,0,0,,testes deve ser confundido com um resultado medido num\Ncomputador físico Sempre
+Dialogue: 0,0:00:31.52,0:00:35.25,Default,,0,0,0,,precisamos dizer onde a experiência foi executada e\Nquais hipóteses usamos

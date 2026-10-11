@@ -8,6 +8,16 @@ Qubit Stories addresses an educational gap: an animation can make an unfamiliar 
 
 This effort is supported by Qollab & IonQ
 
+## Illustrated chapters in three languages
+
+The expanded educational series is available as **48 individual videos**, with 16 chapters in each language. Every chapter includes narration and burned-in subtitles.
+
+- [Português brasileiro](media/chapters/pt/README.md)
+- [English](media/chapters/en/README.md)
+- [Español latinoamericano](media/chapters/es/README.md)
+
+See the [complete chapter index](media/chapters/README.md) for direct MP4 links and editable captions. These files extend the learning materials; the original public videos remain below.
+
 ## The three videos
 
 | Story | Audience / language | Link |

@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:05.04,Default,,0,0,0,,As possibilidades de aplicação despertam muita\Ncuriosidade Uma delas é estudar sistemas
+Dialogue: 0,0:00:05.05,0:00:09.61,Default,,0,0,0,,quânticos como certas moléculas e materiais com modelos\Ne algoritmos apropriados Há
+Dialogue: 0,0:00:09.62,0:00:14.07,Default,,0,0,0,,pesquisas em otimização comunicação e sensores Mas o\Nnome quântico não garante que uma
+Dialogue: 0,0:00:14.09,0:00:18.92,Default,,0,0,0,,solução seja melhor Para falar em vantagem precisamos\Ncomparar métodos custos precisão e
+Dialogue: 0,0:00:18.93,0:00:23.37,Default,,0,0,0,,condições de execução Alguns problemas continuarão sendo\Nmais adequados aos computadores
+Dialogue: 0,0:00:23.38,0:00:27.99,Default,,0,0,0,,clássicos Outros poderão se beneficiar de abordagens que\Ncombinam ferramentas clássicas e
+Dialogue: 0,0:00:28.04,0:00:32.92,Default,,0,0,0,,quânticas Nesta aventura aprendemos conceitos não\Ndemonstramos uma vantagem computacional
+Dialogue: 0,0:00:33.14,0:00:37.41,Default,,0,0,0,,Fazer essa distinção é parte de uma boa explicação\Ncientífica e deixa as descobertas
+Dialogue: 0,0:00:37.42,0:00:38.99,Default,,0,0,0,,reais ainda mais interessantes
