@@ -1,0 +1,16 @@
+00:00 The forest of qubits
+00:33 First, a bit
+01:08 Meet the qubit
+01:40 Superposition is not a hidden coin
+02:14 Measurement asks the system a question
+02:48 Quantum gates
+03:23 Interference
+03:58 An experiment with phase
+04:33 Entanglement
+05:07 No instant messages
+05:44 From the story to the laboratory
+06:26 The challenge of noise
+07:02 Three qubits to protect information
+07:39 Where could this help?
+08:19 Watch, predict, run, explain
+08:56 Your question is the next step

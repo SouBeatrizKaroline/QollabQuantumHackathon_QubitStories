@@ -1,8 +1,8 @@
 # Qubit Stories — Watch, Predict, Run, Explain
 
-**Three animated quantum stories, connected to eight runnable Qiskit experiments.**
+**A trilingual illustrated quantum learning series: three full videos, 48 independent chapters and eight runnable Qiskit experiments.**
 
-Qubit Stories addresses an educational gap: an animation can make an unfamiliar idea approachable, but learners also need to test what the story says. Here, every experiment points back to an exact scene in the supplied videos. Learners watch, write a prediction, reveal simulated results and explain the connection. English and Portuguese introductions reach different audiences; the fantasy story extends the pathway toward engineering and error correction.
+Qubit Stories addresses an educational gap: an animation can make an unfamiliar idea approachable, but learners also need to test what the story says. Here, every experiment points back to a matching chapter of the trilingual series. Learners watch, write a prediction, reveal simulated results and explain the connection. The expanded series teaches the same concepts in English, Portuguese and Spanish, with aligned chapter transitions. The original source stories remain available below.
 
 **Hackathon theme:** Quantum Unlocked. **License:** MIT for the software and repository documentation.
 
@@ -16,9 +16,9 @@ The expanded educational series is available as **48 individual videos**, with 1
 - [English](media/chapters/en/README.md)
 - [Español latinoamericano](media/chapters/es/README.md)
 
-See the [complete chapter index](media/chapters/README.md) for direct MP4 links and editable captions. These files extend the learning materials; the original public videos remain below.
+See the [complete chapter index](media/chapters/README.md) for direct MP4 links and editable captions, and the [three full videos](media/full/README.md) for the complete versions. The experiments point to these published chapters; the original source videos remain below.
 
-## The three videos
+## The three original source videos
 
 | Story | Audience / language | Link |
 |---|---|---|
@@ -26,9 +26,9 @@ See the [complete chapter index](media/chapters/README.md) for direct MP4 links 
 | O Mundo dos Qubits | Young explorers, Portuguese; Kubi introduces the concepts | [Assistir](https://youtu.be/nkQpc2YPSCA) |
 | The Fellowship Of The Qubit | Fantasy framing, English; concepts, hardware, noise and error correction | [Watch](https://youtu.be/uPTSfysNvgw) |
 
-The repository contains links, not downloaded copies of the videos. Video playback uses YouTube; quantum experiments do not depend on YouTube availability. External video and third-party media rights remain with their respective rights holders. The MIT license does not assert ownership of music, voices, assets or other third-party material appearing in linked videos.
+For these three original sources, the repository contains YouTube links rather than downloaded copies. The expanded illustrated series is hosted here as MP4 files; quantum experiments can run independently of video playback. External video and third-party media rights remain with their respective rights holders. The MIT license does not assert ownership of music, voices, assets or other third-party material appearing in linked videos.
 
-## From scene to experiment
+## Original source scenes and their corresponding experiments
 
 | Concept | English introduction | Portuguese introduction | Fellowship | Runnable experiment |
 |---|---|---|---|---|
@@ -38,14 +38,14 @@ The repository contains links, not downloaded copies of the videos. Video playba
 | Entanglement | 1:57 | 1:38 | 0:40 | Bell measurements in Z and X bases |
 | Noise and logical qubits | Not covered | Not covered | 1:10–1:25 | Inject one X error; compare unprotected and encoded recovery |
 
-Timestamps were checked against auto-generated captions; slight offsets may occur. The executable activities extend the video explanations; the videos do not show the specific circuits implemented here.
+Original source timestamps were checked against auto-generated captions; slight offsets may occur. The live interface now links directly to the corresponding translated chapter files. The executable activities extend the video explanations; the videos do not show the specific circuits implemented here.
 
 ## Run on Qollab — visual experience
 
 1. Create a project with **Upload your own files**. Upload `index.html`, `main.js`, `main.css`, `quantum.py` and `requirements.txt` at the project root. A ZIP containing these files is supplied separately.
 2. The top-level `index.html` and `main.js` select Qollab's JS/Qiskit runtime. `main.js` calls Python through Qollab's documented `callPromising` bridge.
 3. Press **Run** and select a **free simulator**. Qollab supplies `backend`; there are no credentials in this repository.
-4. Choose a video. Write a prediction before opening an experiment's results.
+4. Choose a video language. Follow an experiment’s chapter link. Write a prediction before opening an experiment's results.
 5. Compare phase 0°, 90° and 180°. Z measurements remain 50/50, while the interference experiment changes. Encode zero or one to test bit-flip recovery.
 6. All eight circuits are transpiled and submitted as **one backend job per run**, following Qollab's IonQ limit. Exact ideal probabilities are labelled separately from observed backend counts.
 
@@ -65,7 +65,7 @@ Local `main.py` uses Qiskit's free `BasicSimulator`. The visual interface relies
 
 ## Educational contribution beyond a starter circuit
 
-The contribution is a bilingual, timestamp-linked **watch → predict → run → explain** pathway, rather than an isolated Bell-state tutorial. Two experiments expose phase invisible in Z but visible after H. Bell correlations are compared across two measurement bases. A simplified three-qubit recovery activity connects a specific engineering claim in the third video to an executable circuit. Prediction fields are temporary and do not collect learner data.
+The contribution is a trilingual, chapter-linked **watch → predict → run → explain** pathway, rather than an isolated Bell-state tutorial. All three language versions connect to the same experiments. Two experiments expose phase invisible in Z but visible after H. Bell correlations are compared across two measurement bases. A simplified three-qubit recovery activity connects a specific engineering claim in the third video to an executable circuit. Prediction fields are temporary and do not collect learner data.
 
 These are proposed educational benefits, not measured learning outcomes. No user study or quantum advantage benchmark is claimed.
 
@@ -82,7 +82,7 @@ These are proposed educational benefits, not measured learning outcomes. No user
 
 ## Accessibility
 
-Keyboard-operable controls, visible focus, labelled inputs, semantic headings, tables with text outcomes and live status are included. Information does not rely only on colour. No flashing or forced autoplay is used. English/Portuguese labels accompany navigation; scientific explanations are in English. Review and correct video captions before final submission; auto-generated captions can misrecognize “qubit”. No claim of a completed WCAG audit is made.
+Keyboard-operable controls, visible focus, labelled inputs, semantic headings, tables with text outcomes and live status are included. Information does not rely only on colour. No flashing or forced autoplay is used. English/Portuguese labels accompany navigation; scientific explanations are in English. New lessons include narration and burned-in captions in English, Portuguese and Spanish, plus editable captions. Review narration and subtitles before submission; original YouTube auto-captions can misrecognize “qubit”. No claim of a completed WCAG audit is made.
 
 ## Hackathon submission
 
@@ -100,3 +100,7 @@ See [PROVENANCE.md](PROVENANCE.md) for what is known and what the author still n
 ## Reuse
 
 Fork the MIT-licensed software and documentation to add your own story and aligned experiments. Preserve attribution, identify new contributions and disclose any pre-existing material. Links to external videos do not provide a redistribution license for their media.
+
+## Downloads and submission setup
+
+See [deliverables](DELIVERABLES.md), download [qollab-runtime.zip](qollab-runtime.zip), and follow the [Portuguese setup guide](QOLLAB_SETUP_PT.md). The Qollab publication, simulator verification and separate 2–3 minute demo are still pending.

@@ -1,16 +1,12 @@
 import * as quantum from 'quantum';
 
-const videoInfo = [
-  ['The World of Qubits', 'English · Cuby introduces quantum ideas', 'EAcDVqTb0lk'],
-  ['O Mundo dos Qubits', 'Português · Kubi apresenta os conceitos', 'nkQpc2YPSCA'],
-  ['The Fellowship Of The Qubit', 'English · From concepts to quantum engineering', 'uPTSfysNvgw']
-];
+const videoInfo = [["The Forest of Qubits", "English · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/en/the-forest-of-qubits.mp4"], ["A floresta dos qubits", "Português · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt/a-floresta-dos-qubits.mp4"], ["El bosque de los cúbits", "Español · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/es/el-bosque-de-los-cubits.mp4"]];
 const videoRoot = document.getElementById('videos');
-videoInfo.forEach(([title, subtitle, id]) => {
+videoInfo.forEach(([title, subtitle, url]) => {
   const card = document.createElement('article');
   const heading = document.createElement('h3'); heading.textContent = title;
   const description = document.createElement('p'); description.textContent = subtitle;
-  const link = document.createElement('a'); link.href = `https://youtu.be/${id}`; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'Watch / Assistir ↗';
+  const link = document.createElement('a'); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'Watch / Assistir ↗';
   card.append(heading, description, link); videoRoot.append(card);
 });
 const status = document.getElementById('status');
@@ -22,10 +18,9 @@ function render(report) {
     const card = element('article', '', 'lesson');
     card.append(element('p', `EXPERIMENT ${index + 1}`, 'eyebrow'), element('h3', lesson.title));
     const links = element('div', '', 'timestamps');
-    lesson.links.forEach((seconds, i) => {
-      if (seconds === null) return;
-      const link = element('a', `${videoInfo[i][0]} · ${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2,'0')} ↗`);
-      link.href = `https://www.youtube.com/watch?v=${videoInfo[i][2]}&t=${seconds}s`; link.target = '_blank'; link.rel = 'noopener noreferrer'; links.append(link);
+    lesson.links.forEach((url, i) => {
+      const link = element('a', `${videoInfo[i][0]} · Chapter / Capítulo ${lesson.chapter} ↗`);
+      link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; links.append(link);
     });
     card.append(links, element('p', 'What do you expect? / O que você espera?'));
     const prediction = element('textarea', ''); prediction.rows = 2; prediction.setAttribute('aria-label', `Your prediction for ${lesson.title}`); prediction.placeholder = 'Write your prediction / Escreva sua previsão'; card.append(prediction);

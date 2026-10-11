@@ -1,8 +1,8 @@
-# Qubit Stories — Animated Quantum Learning Lab
+# Qubit Stories — Trilingual Quantum Learning Lab
 
-## Short description (under 240 characters)
+## Short description (225 / 240 characters)
 
-Three animated stories in English and Portuguese introduce quantum computing. Watch key scenes, predict outcomes, and run linked Qiskit experiments exploring superposition, interference, entanglement, and a simple bit-flip code.
+A trilingual quantum learning lab: three illustrated videos and 48 chapters in English, Portuguese and Spanish, linked to eight Qiskit experiments. Watch, predict, run and explain superposition, interference and entanglement.
 
 ## Theme
 
@@ -10,45 +10,42 @@ Quantum Unlocked
 
 ## What it does
 
-Qubit Stories connects three educational animations to a runnable Qiskit learning lab. Each experiment links to the scene that introduces its concept. Learners move from narrative intuition to a prediction, then compare it with ideal probabilities and shot counts from the simulator they selected in Qollab.
+Qubit Stories connects a trilingual illustrated video series to eight runnable Qiskit experiments. The same 16 chapters are available in English, Portuguese and Spanish, as three full videos of approximately 9min30s and 48 independent chapter videos. Every experiment links to the corresponding chapter in each language. Learners watch, write a prediction, run circuits and compare ideal probabilities with sampled simulator counts.
 
-## Why it matters
+## Problem and contribution
 
-Quantum concepts can feel inaccessible to first-time learners. Cuby/Kubi provides a friendly introduction in English and Portuguese. The fantasy-framed Fellowship story leads toward quantum engineering, noise and logical qubits. Our contribution connects this storytelling to experiments, so the animations become an entry point to exploration rather than a substitute for evidence.
+Quantum concepts can be difficult to understand from words alone. Our original educational pathway combines narrative illustrations, multilingual narration, chapter-level links, predictions and contrasting executable experiments. It connects phase hidden in one basis to interference visible in another, compares Bell correlations in two bases, and links an engineering explanation to a controlled bit-flip recovery example. This extends a standard introductory circuit with a coherent teaching experience; no measured learning improvement is claimed.
 
-## Videos
+## Public learning videos
 
-1. [The World of Qubits — English](https://youtu.be/EAcDVqTb0lk)
-2. [O Mundo dos Qubits — Português](https://youtu.be/nkQpc2YPSCA)
-3. [The Fellowship Of The Qubit — English](https://youtu.be/uPTSfysNvgw)
+- [English — The Forest of Qubits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/en/the-forest-of-qubits.mp4)
+- [Português — A floresta dos qubits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt/a-floresta-dos-qubits.mp4)
+- [Español — El bosque de los cúbits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/es/el-bosque-de-los-cubits.mp4)
 
-These are educational assets. A separate 2–3 minute recording demonstrating this runnable project is still required for the final submission.
+[All 48 chapters and editable captions](https://github.com/SouBeatrizKaroline/qubit-stories/tree/main/media/chapters).
+
+The three original source stories remain documented in the main README: The World of Qubits, O Mundo dos Qubits and The Fellowship Of The Qubit. The new series expands the same concepts and connects them to the executable lab.
 
 ## How to run
 
-Press Run, choose a free simulator, and wait for the eight-circuit job to finish. Choose a story and follow the timestamp links. Write your prediction before revealing the results. Change the phase selector to 0°, 90° or 180° and run again. Toggle the logical-one input to compare bit-flip recovery for both logical basis states.
+Import qollab-runtime.zip with Upload your own files. Press Run, select a free simulator, and wait for one job containing the eight circuits. Select a video language, follow the chapter links and write a prediction before revealing each result. Change the phase selector to 0°, 90° or 180° and rerun. Toggle logical one to compare recovery for both logical basis states.
 
-## Experiments linked to the stories
+## Scientific limits
 
-- A definite bit and H-prepared superposition: the first concepts in all three videos.
-- Relative phase before and after a final H: makes the interference explanation testable.
-- Bell correlations measured in Z and X: extends the entanglement scenes beyond matching outcomes.
-- An unprotected X error versus three-qubit recovery: connects to the Fellowship's discussion of noise and logical qubits.
-
-## Contribution and limits
-
-The educational contribution combines bilingual stories, scene-level links, learner predictions and contrasting experiments. The three-qubit demonstration protects against one injected bit flip only; it does not show general quantum error correction or fault-tolerant computing. Exact ideal probabilities are distinct from sampled results. No measured learning improvement, hardware execution or quantum advantage is claimed.
+The illustrations are visual metaphors. The repetition example corrects one injected X error; it does not demonstrate arbitrary noise correction, fault tolerance or hardware execution. Exact probabilities are distinct from observed counts. No quantum advantage is claimed. See the README for bit ordering and measurement-basis explanations.
 
 ## Accessibility
 
-The interface supports keyboard navigation, labelled controls, visible focus and textual result tables. It does not require video playback to run the experiments. Video caption accuracy still needs author review.
+Each video has narration, burned-in subtitles and editable captions. The lab supports keyboard navigation, labelled inputs, visible focus and text result tables. Video playback is optional for running the experiments. The interface labels include English and Portuguese; video lessons are provided in all three languages. No completed WCAG audit is claimed.
 
-## Originality and AI assistance
+## Source, license and originality
 
-The executable companion and documentation were prepared with Codex assistance on October 11, 2026. See PROVENANCE.md for the author disclosure still needed about the videos, their production tools and any material created before the hackathon window. Judging should consider the disclosed additions made during the event.
+[Git repository](https://github.com/SouBeatrizKaroline/qubit-stories).
 
-## License and attribution
+Software and documentation: MIT. The software, expanded scripts, diagrams, translation and production were prepared with Codex assistance on October 11, 2026. Production notes disclose image generation and synthetic voice tools. PROVENANCE.md records the disclosure still needed for the original source videos and any pre-existing material; those facts have not been invented. External media rights remain with their respective rights holders.
 
-Software and repository documentation: MIT. Linked video and third-party asset rights remain with their respective rights holders.
+## Hackathon demo and publication status
+
+These 9min30s learning videos and short chapters are educational assets. A separate public 2–3 minute demo showing this runnable project is still required. GitHub publication is complete; the project still needs import, free-simulator verification, MIT publication and submission in Qollab. Publishing learning assets does not itself submit an entry.
 
 This effort is supported by Qollab & IonQ

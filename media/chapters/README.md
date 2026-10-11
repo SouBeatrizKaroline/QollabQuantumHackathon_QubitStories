@@ -8,6 +8,6 @@
 
 Os índices oferecem links diretos para assistir ou baixar os arquivos MP4. As legendas ASS são fornecidas para edição.
 
-Os três vídeos completos de aproximadamente 9min30s foram entregues separadamente ao participante; esta pasta contém os capítulos individuais. O laboratório Qollab usa apenas os arquivos de execução indicados no README principal, sem importar estes MP4s.
+Os [três vídeos completos de aproximadamente 9min30s](../full/README.md) também estão publicados no repositório; esta pasta contém os capítulos individuais. O laboratório Qollab usa apenas os arquivos de execução indicados no README principal, sem importar estes MP4s.
 
 This effort is supported by Qollab & IonQ
