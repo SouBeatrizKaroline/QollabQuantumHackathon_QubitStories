@@ -1,59 +1,32 @@
-# Qubit Stories — Watch, Predict, Run, Explain
+# Qubit Stories — Multilingual Quantum Learning Lab
 
-**A trilingual illustrated quantum learning series: three full videos, 48 independent chapters and eight runnable Qiskit experiments.**
+[English](docs/en/README.md) | [Português (Brasil)](docs/pt-BR/README.md) | [Português (Portugal)](docs/pt-PT/README.md) | [Español](docs/es/README.md)
 
-Qubit Stories addresses an educational gap: an animation can make an unfamiliar idea approachable, but learners also need to test what the story says. Here, every experiment points back to a matching chapter of the trilingual series. Learners watch, write a prediction, reveal simulated results and explain the connection. The expanded series teaches the same concepts in English, Portuguese and Spanish, with aligned chapter transitions. The original source stories remain available below.
+An illustrated learning series connects storytelling to eight runnable Qiskit experiments. There are four full videos of approximately 9min30s and 64 independent narrated chapters: 16 per language variant. The visuals and chapter transitions are aligned. Brazilian and European Portuguese have distinct scripts and voices; these are separate language variants. The original three YouTube sources remain linked as references.
 
-**Hackathon theme:** Quantum Unlocked. **License:** MIT for the software and repository documentation.
-
-This effort is supported by Qollab & IonQ
-
-## Illustrated chapters in three languages
-
-The expanded educational series is available as **48 individual videos**, with 16 chapters in each language. Every chapter includes narration and burned-in subtitles.
-
-- [Português brasileiro](media/chapters/pt/README.md)
-- [English](media/chapters/en/README.md)
-- [Español latinoamericano](media/chapters/es/README.md)
-
-See the [complete chapter index](media/chapters/README.md) for direct MP4 links and editable captions, and the [three full videos](media/full/README.md) for the complete versions. The experiments point to these published chapters; the original source videos remain below.
-
-## The three original source videos
-
-| Story | Audience / language | Link |
+| | Full videos | Chapters |
 |---|---|---|
-| The World of Qubits | Young explorers, English; Cuby introduces the concepts | [Watch](https://youtu.be/EAcDVqTb0lk) |
-| O Mundo dos Qubits | Young explorers, Portuguese; Kubi introduces the concepts | [Assistir](https://youtu.be/nkQpc2YPSCA) |
-| The Fellowship Of The Qubit | Fantasy framing, English; concepts, hardware, noise and error correction | [Watch](https://youtu.be/uPTSfysNvgw) |
+| English | [The Forest of Qubits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/en/the-forest-of-qubits.mp4) | [16](media/chapters/en/README.md) |
+| Português (Brasil) | [A floresta dos qubits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt/a-floresta-dos-qubits.mp4) | [16](media/chapters/pt/README.md) |
+| Español | [El bosque de los cúbits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/es/el-bosque-de-los-cubits.mp4) | [16](media/chapters/es/README.md) |
+| Português (Portugal) | [A floresta dos qubits — Portugal](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt-PT/a-floresta-dos-qubits-pt-PT.mp4) | [16](media/chapters/pt-PT/README.md) |
 
-For these three original sources, the repository contains YouTube links rather than downloaded copies. The expanded illustrated series is hosted here as MP4 files; quantum experiments can run independently of video playback. External video and third-party media rights remain with their respective rights holders. The MIT license does not assert ownership of music, voices, assets or other third-party material appearing in linked videos.
+Watch the relevant chapter, write a prediction, run the circuit and explain the results. Compare ideal probabilities with sampled counts. Change the relative phase to 0°, 90° or 180° and compare measurements before and after a final Hadamard. Compare Bell correlations in Z and X and investigate recovery from one controlled X error. Predictions are temporary and no learner data is collected. Educational benefits have not been measured in a user study.
 
-## Original source scenes and their corresponding experiments
+## Run on Qollab
 
-| Concept | English introduction | Portuguese introduction | Fellowship | Runnable experiment |
-|---|---|---|---|---|
-| Bit versus qubit | 0:20 | 0:15 | 0:12 | Definite zero versus H-prepared superposition |
-| Preparation and measurement | 0:48–1:34 | 0:38–1:19 | 0:12–0:20 | Repeated preparations give a frequency distribution |
-| Interference | 1:37 | 1:21 | 0:24 | Compare H–P(phase) with H–P(phase)–H |
-| Entanglement | 1:57 | 1:38 | 0:40 | Bell measurements in Z and X bases |
-| Noise and logical qubits | Not covered | Not covered | 1:10–1:25 | Inject one X error; compare unprotected and encoded recovery |
+1. Create a project using **Upload your own files** and upload `qollab-runtime.zip`. Keep the runtime files at the project root; do not upload the MP4 videos to Qollab.
+2. Press **Run** and choose a free simulator. Qollab supplies `backend`; no account credentials are included in the project.
+3. Choose a language, open a matching chapter and write a prediction before revealing the result.
+4. Adjust phase, shots or logical input and run again. All eight circuits are transpiled and submitted in one backend job per run, following Qollab's IonQ constraint.
 
-Original source timestamps were checked against auto-generated captions; slight offsets may occur. The live interface now links directly to the corresponding translated chapter files. The executable activities extend the video explanations; the videos do not show the specific circuits implemented here.
+`index.html` and `main.js` select the JS/Qiskit interface; JavaScript calls Python via the documented `callPromising` bridge. This interface needs the Qollab runtime. For the Python-only alternative, use `main.py`, `quantum.py` and `requirements.txt` without `index.html` or `main.js`; Qollab calls `main()` automatically.
 
-## Run on Qollab — visual experience
+[Download the Qollab package](qollab-runtime.zip)
 
-1. Create a project with **Upload your own files**. Upload `index.html`, `main.js`, `main.css`, `quantum.py` and `requirements.txt` at the project root. A ZIP containing these files is supplied separately.
-2. The top-level `index.html` and `main.js` select Qollab's JS/Qiskit runtime. `main.js` calls Python through Qollab's documented `callPromising` bridge.
-3. Press **Run** and select a **free simulator**. Qollab supplies `backend`; there are no credentials in this repository.
-4. Choose a video language. Follow an experiment’s chapter link. Write a prediction before opening an experiment's results.
-5. Compare phase 0°, 90° and 180°. Z measurements remain 50/50, while the interference experiment changes. Encode zero or one to test bit-flip recovery.
-6. All eight circuits are transpiled and submitted as **one backend job per run**, following Qollab's IonQ limit. Exact ideal probabilities are labelled separately from observed backend counts.
+## Run locally and validate
 
-The Python-only alternative uses `main.py`, `quantum.py` and `requirements.txt`, **without** `index.html` or `main.js`. Qollab automatically calls `main()` and displays phase, shots and logical-one inputs. Do not add a second call to `main()` in the Qollab editor.
-
-## Run locally
-
-Requires Python 3.10+ and Qiskit 2.x:
+Python 3.10+ and Qiskit 2.x are required. Local execution uses Qiskit's free `BasicSimulator`. The three local tests cover phase/interference, coherent single-X recovery at every physical-qubit position and a single job with count totals. Qollab and IonQ execution have not yet been verified.
 
 ```sh
 python -m pip install -r requirements.txt
@@ -61,46 +34,50 @@ python main.py
 python -m unittest discover -s tests -v
 ```
 
-Local `main.py` uses Qiskit's free `BasicSimulator`. The visual interface relies on Qollab's module bridge and is not a standalone HTML app. It should be imported into Qollab, not opened directly from disk.
+## Scientific scope
 
-## Educational contribution beyond a starter circuit
-
-The contribution is a trilingual, chapter-linked **watch → predict → run → explain** pathway, rather than an isolated Bell-state tutorial. All three language versions connect to the same experiments. Two experiments expose phase invisible in Z but visible after H. Bell correlations are compared across two measurement bases. A simplified three-qubit recovery activity connects a specific engineering claim in the third video to an executable circuit. Prediction fields are temporary and do not collect learner data.
-
-These are proposed educational benefits, not measured learning outcomes. No user study or quantum advantage benchmark is claimed.
-
-## Scientific scope and limitations
-
-- A qubit is a quantum state, not a literal glowing ball. Characters and landscapes are visual metaphors.
-- Measurements return one classical result; frequencies estimate probabilities across new preparations.
-- Correlated Z outcomes alone do not establish entanglement. The Bell state is known from its preparation; the X comparison highlights coherence. This is not a loophole-free Bell test.
-- Entanglement does not enable faster-than-light messaging.
-- The repetition example encodes a single qubit into three physical qubits and coherently recovers one injected **X** error. It does not correct arbitrary noise, phase errors or two bit flips, and it is not a fault-tolerant implementation.
-- Other output bits in the recovery experiment are syndrome ancillas. The logical output is q0, displayed on the **right** of Qiskit bitstrings.
-- Exact probabilities assume ideal operations. Backend shot counts may fluctuate or reflect a simulator noise model. No real hardware result is claimed.
-- The circuits do not model superconducting cooling, trapped-ion lasers, molecular simulation or quantum sensors mentioned in the third video.
+- Characters and the forest are visual metaphors; a qubit is a quantum state, not a glowing ball.
+- Amplitudes and relative phase distinguish superposition from classical ignorance. Measurements return one outcome; distributions require repeated preparations.
+- Correlations in one basis alone do not prove entanglement. The Bell preparation and X/Z comparison highlight coherence; this is not a loophole-free Bell test. Entanglement does not enable faster-than-light messages.
+- The three-qubit repetition example recovers one injected X error. It does not correct arbitrary noise, phase errors or two bit flips, and does not demonstrate fault tolerance. The recovered logical qubit is q0, the rightmost bit in Qiskit strings; the others hold syndrome information.
+- Exact ideal probabilities differ from sampled backend counts. No real-hardware execution, quantum advantage or measured learning improvement is claimed.
+- The circuits do not model superconducting cooling, trapped-ion lasers, molecular simulation or sensors discussed in the stories.
 
 ## Accessibility
 
-Keyboard-operable controls, visible focus, labelled inputs, semantic headings, tables with text outcomes and live status are included. Information does not rely only on colour. No flashing or forced autoplay is used. English/Portuguese labels accompany navigation; scientific explanations are in English. New lessons include narration and burned-in captions in English, Portuguese and Spanish, plus editable captions. Review narration and subtitles before submission; original YouTube auto-captions can misrecognize “qubit”. No claim of a completed WCAG audit is made.
+Videos include synthetic narration, burned-in subtitles and editable ASS/SRT captions. Text scripts accompany the media. The lab provides keyboard controls, visible focus, labelled inputs, text result tables and live status. Playback is optional; no flashing or forced autoplay is used. Interface labels are in English and Portuguese, while videos and documentation cover all four language variants. A completed WCAG audit is not claimed.
 
-## Hackathon submission
+## Sources, authorship and license
 
-See [QOLLAB_PROJECT_CARD.md](QOLLAB_PROJECT_CARD.md) for copy-ready project text and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md) for remaining platform steps. Creating this Git repository does **not** publish a runnable Qollab project or submit an entry. Registration, publication and submission must be completed in the participant's Qollab account.
+MIT covers the software and documentation. The original YouTube stories remain the property of their rights holders; public links do not grant redistribution rights. Their authorship, dates and tools remain unconfirmed. New scripts, translations, diagrams and production were prepared with Codex assistance on October 11, 2026. Generated artwork and synthetic narration are disclosed in the production notes. Keep the original English MIT license as the authoritative license text; these explanations do not replace it.
 
-See [PROVENANCE.md](PROVENANCE.md) for what is known and what the author still needs to disclose. Video creation dates and production tools have not yet been confirmed.
+- [The World of Qubits — English](https://youtu.be/EAcDVqTb0lk)
+- [O Mundo dos Qubits — pt-BR](https://youtu.be/nkQpc2YPSCA)
+- [The Fellowship Of The Qubit — English](https://youtu.be/uPTSfysNvgw)
 
-## Sources
+## Submission status
 
-- [Qollab submission rules and themes](https://qollab.xyz/programs/hackathon/terms#submissions)
-- [Qollab Python/Qiskit projects](https://qollab.xyz/learn/docs/python-qiskit-projects)
-- [Qollab runtime and Python/JS bridge](https://qollab.xyz/learn/docs/runtime-environment)
-- [Qollab project documentation](https://qollab.xyz/learn/docs/write-your-project-page)
+GitHub publication of the learning materials is complete. Qollab import, free-simulator and IonQ checks, MIT publication and final hackathon submission remain pending. A separate public 2–3 minute demonstration must show the runnable lab; the long educational videos do not replace it.
 
-## Reuse
+## Documentation
 
-Fork the MIT-licensed software and documentation to add your own story and aligned experiments. Preserve attribution, identify new contributions and disclose any pre-existing material. Links to external videos do not provide a redistribution license for their media.
+- [README](docs/en/README.md)
+- [Project Card](docs/en/QOLLAB_PROJECT_CARD.md)
+- [Setup guide](docs/en/QOLLAB_SETUP.md)
+- [Checklist](docs/en/SUBMISSION_CHECKLIST.md)
+- [Provenance](docs/en/PROVENANCE.md)
+- [Production notes](docs/en/PRODUCTION_NOTES.md)
+- [Deliverables](docs/en/DELIVERABLES.md)
 
-## Downloads and submission setup
+- [Qollab — hackathon](https://qollab.xyz/programs/hackathon/terms#submissions)
+- [Qollab — Python/Qiskit](https://qollab.xyz/learn/docs/python-qiskit-projects)
+- [Qollab — runtime](https://qollab.xyz/learn/docs/runtime-environment)
+- [Qollab — project page](https://qollab.xyz/learn/docs/write-your-project-page)
+- [IBM Quantum — repetition codes](https://quantum.cloud.ibm.com/learning/en/courses/foundations-of-quantum-error-correction/correcting-quantum-errors/repetition-codes)
 
-See [deliverables](DELIVERABLES.md), download [qollab-runtime.zip](qollab-runtime.zip), and follow the [Portuguese setup guide](QOLLAB_SETUP_PT.md). The Qollab publication, simulator verification and separate 2–3 minute demo are still pending.
+
+---
+
+[English](docs/en/README.md) | [Português (Brasil)](docs/pt-BR/README.md) | [Português (Portugal)](docs/pt-PT/README.md) | [Español](docs/es/README.md)
+
+This effort is supported by Qollab & IonQ

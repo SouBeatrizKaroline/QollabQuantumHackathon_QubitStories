@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.42,0:00:05.27,Default,,0,0,0,,Como podemos proteger informação Num exemplo\Nsimplificado codificamos um qubit lógico em
+Dialogue: 0,0:00:05.27,0:00:10.38,Default,,0,0,0,,três qubits físicos Para uma entrada zero o padrão pode\Nser zero zero zero Se
+Dialogue: 0,0:00:10.38,0:00:15.20,Default,,0,0,0,,introduzirmos um único erro de bit um dos valores muda\NUm circuito de recuperação usa a
+Dialogue: 0,0:00:15.20,0:00:19.39,Default,,0,0,0,,informação sobre esse erro para restaurar o qubit lógico\NO código de repetição também
+Dialogue: 0,0:00:19.39,0:00:22.22,Default,,0,0,0,,pode preservar a coerência de um estado codificado\Nquando o erro pertence ao modelo
+Dialogue: 0,0:00:22.22,0:00:27.09,Default,,0,0,0,,considerado Não estamos a copiar livremente um estado\Nquântico desconhecido E este
+Dialogue: 0,0:00:27.09,0:00:30.50,Default,,0,0,0,,exemplo não corrige qualquer tipo de ruído não resolve\Nerros de fase nem dois erros de
+Dialogue: 0,0:00:30.50,0:00:34.85,Default,,0,0,0,,bit É uma primeira experiência não uma demonstração\Ncompleta de tolerância a falhas

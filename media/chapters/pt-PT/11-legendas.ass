@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:06.29,Default,,0,0,0,,Como constroem os engenheiros estes sistemas Existem\Nvárias abordagens Numa delas
+Dialogue: 0,0:00:06.39,0:00:10.18,Default,,0,0,0,,circuitos supercondutores funcionam a temperaturas muito\Nbaixas em equipamentos próprios
+Dialogue: 0,0:00:10.18,0:00:14.73,Default,,0,0,0,,para arrefecimento e controlo Noutra iões aprisionados\Nsão controlados com campos e
+Dialogue: 0,0:00:14.73,0:00:20.03,Default,,0,0,0,,lasers Não são duas versões da mesma máquina cada\Ntecnologia tem vantagens desafios e
+Dialogue: 0,0:00:20.03,0:00:24.70,Default,,0,0,0,,necessidades de engenharia diferentes Além dos qubits\Nprecisamos de sistemas clássicos
+Dialogue: 0,0:00:24.70,0:00:29.63,Default,,0,0,0,,para preparar operações recolher resultados e analisar\Ndados A computação quântica
+Dialogue: 0,0:00:29.63,0:00:34.43,Default,,0,0,0,,trabalha em conjunto com a computação clássica A nossa\Nfloresta representa ideias não o
+Dialogue: 0,0:00:34.43,0:00:38.77,Default,,0,0,0,,interior literal de um processador Conhecer esta\Ndiferença ajuda-nos a passar da história
+Dialogue: 0,0:00:38.77,0:00:40.85,Default,,0,0,0,,para uma compreensão mais rigorosa do laboratório

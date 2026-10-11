@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:03.79,Default,,0,0,0,,A imagem das lanternas pode dar a impressão de que uma\Nenvia uma mensagem instantânea à
+Dialogue: 0,0:00:03.79,0:00:09.04,Default,,0,0,0,,outra Esta interpretação está errada Quem mede um dos\Nqubits não pode escolher livremente
+Dialogue: 0,0:00:09.04,0:00:13.75,Default,,0,0,0,,o resultado para transmitir uma frase Vistos\Nindividualmente os resultados do exemplo
+Dialogue: 0,0:00:13.75,0:00:17.93,Default,,0,0,0,,parecem aleatórios Para comparar as correlações as\Npessoas precisam de partilhar
+Dialogue: 0,0:00:17.93,0:00:22.19,Default,,0,0,0,,informação através de um canal habitual respeitando os\Nlimites da comunicação O
+Dialogue: 0,0:00:22.19,0:00:25.38,Default,,0,0,0,,entrelaçamento é uma propriedade importante da natureza\Ne pode ser um recurso para
+Dialogue: 0,0:00:25.38,0:00:29.93,Default,,0,0,0,,tecnologias quânticas Mas não transforma a nossa\Nfloresta num telefone mais rápido do que
+Dialogue: 0,0:00:29.93,0:00:34.45,Default,,0,0,0,,a luz A metáfora deve ajudar-nos a compreender sem\Ninventar um poder que a física não
+Dialogue: 0,0:00:34.45,0:00:35.03,Default,,0,0,0,,oferece

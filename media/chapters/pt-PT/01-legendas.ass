@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.42,0:00:04.34,Default,,0,0,0,,Imagina uma floresta onde cada caminho revela uma\Npergunta Porque precisam algumas
+Dialogue: 0,0:00:04.34,0:00:09.21,Default,,0,0,0,,máquinas de temperaturas tão baixas Como pode uma\Npartícula guardar informação E porque
+Dialogue: 0,0:00:09.21,0:00:12.25,Default,,0,0,0,,não são os computadores quânticos simplesmente versões\Nmais rápidas dos computadores
+Dialogue: 0,0:00:12.25,0:00:16.81,Default,,0,0,0,,habituais Nesta aventura uma jovem exploradora e Kubi o\Nseu companheiro luminoso vão
+Dialogue: 0,0:00:16.81,0:00:20.79,Default,,0,0,0,,ajudar-nos a descobrir as respostas A floresta e a\Nmascote são personagens de uma
+Dialogue: 0,0:00:20.79,0:00:25.90,Default,,0,0,0,,história Os conceitos que vamos explorar pertencem à\Nciência Não precisamos de magia para
+Dialogue: 0,0:00:25.90,0:00:30.04,Default,,0,0,0,,nos surpreendermos Precisamos de curiosidade de bons\Nexemplos e de cuidado para
+Dialogue: 0,0:00:30.04,0:00:32.16,Default,,0,0,0,,distinguir aquilo que imaginamos daquilo que conseguimos\Nmedir

@@ -1,8 +1,8 @@
-# Qubit Stories — Trilingual Quantum Learning Lab
+# Qubit Stories — Multilingual Quantum Learning Lab
 
-## Short description (225 / 240 characters)
+## Short description (220/240)
 
-A trilingual quantum learning lab: three illustrated videos and 48 chapters in English, Portuguese and Spanish, linked to eight Qiskit experiments. Watch, predict, run and explain superposition, interference and entanglement.
+Four illustrated videos and 64 chapters in English, Spanish, Brazilian Portuguese and European Portuguese, linked to eight Qiskit experiments. Watch, predict, run and explain superposition, interference and entanglement.
 
 ## Theme
 
@@ -10,42 +10,52 @@ Quantum Unlocked
 
 ## What it does
 
-Qubit Stories connects a trilingual illustrated video series to eight runnable Qiskit experiments. The same 16 chapters are available in English, Portuguese and Spanish, as three full videos of approximately 9min30s and 48 independent chapter videos. Every experiment links to the corresponding chapter in each language. Learners watch, write a prediction, run circuits and compare ideal probabilities with sampled simulator counts.
+An illustrated learning series connects storytelling to eight runnable Qiskit experiments. There are four full videos of approximately 9min30s and 64 independent narrated chapters: 16 per language variant. The visuals and chapter transitions are aligned. Brazilian and European Portuguese have distinct scripts and voices; these are separate language variants. The original three YouTube sources remain linked as references.
+
+Watch the relevant chapter, write a prediction, run the circuit and explain the results. Compare ideal probabilities with sampled counts. Change the relative phase to 0°, 90° or 180° and compare measurements before and after a final Hadamard. Compare Bell correlations in Z and X and investigate recovery from one controlled X error. Predictions are temporary and no learner data is collected. Educational benefits have not been measured in a user study.
 
 ## Problem and contribution
 
-Quantum concepts can be difficult to understand from words alone. Our original educational pathway combines narrative illustrations, multilingual narration, chapter-level links, predictions and contrasting executable experiments. It connects phase hidden in one basis to interference visible in another, compares Bell correlations in two bases, and links an engineering explanation to a controlled bit-flip recovery example. This extends a standard introductory circuit with a coherent teaching experience; no measured learning improvement is claimed.
+Quantum concepts can be hard to understand from words alone. This project combines a consistent illustrated narrative, four language variants, direct chapter links, predictions and contrasting executable experiments. It makes phase visible through interference, compares correlations across bases and connects an engineering explanation to controlled bit-flip recovery. No measured educational improvement is claimed.
 
-## Public learning videos
+## Learning videos
 
-- [English — The Forest of Qubits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/en/the-forest-of-qubits.mp4)
-- [Português — A floresta dos qubits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt/a-floresta-dos-qubits.mp4)
-- [Español — El bosque de los cúbits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/es/el-bosque-de-los-cubits.mp4)
-
-[All 48 chapters and editable captions](https://github.com/SouBeatrizKaroline/qubit-stories/tree/main/media/chapters).
-
-The three original source stories remain documented in the main README: The World of Qubits, O Mundo dos Qubits and The Fellowship Of The Qubit. The new series expands the same concepts and connects them to the executable lab.
+| | Full videos | Chapters |
+|---|---|---|
+| English | [The Forest of Qubits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/en/the-forest-of-qubits.mp4) | [16](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/media/chapters/en/README.md) |
+| Português (Brasil) | [A floresta dos qubits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt/a-floresta-dos-qubits.mp4) | [16](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/media/chapters/pt/README.md) |
+| Español | [El bosque de los cúbits](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/es/el-bosque-de-los-cubits.mp4) | [16](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/media/chapters/es/README.md) |
+| Português (Portugal) | [A floresta dos qubits — Portugal](https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt-PT/a-floresta-dos-qubits-pt-PT.mp4) | [16](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/media/chapters/pt-PT/README.md) |
 
 ## How to run
 
-Import qollab-runtime.zip with Upload your own files. Press Run, select a free simulator, and wait for one job containing the eight circuits. Select a video language, follow the chapter links and write a prediction before revealing each result. Change the phase selector to 0°, 90° or 180° and rerun. Toggle logical one to compare recovery for both logical basis states.
+1. Create a project using **Upload your own files** and upload `qollab-runtime.zip`. Keep the runtime files at the project root; do not upload the MP4 videos to Qollab.
+2. Press **Run** and choose a free simulator. Qollab supplies `backend`; no account credentials are included in the project.
+3. Choose a language, open a matching chapter and write a prediction before revealing the result.
+4. Adjust phase, shots or logical input and run again. All eight circuits are transpiled and submitted in one backend job per run, following Qollab's IonQ constraint.
+
+`index.html` and `main.js` select the JS/Qiskit interface; JavaScript calls Python via the documented `callPromising` bridge. This interface needs the Qollab runtime. For the Python-only alternative, use `main.py`, `quantum.py` and `requirements.txt` without `index.html` or `main.js`; Qollab calls `main()` automatically.
 
 ## Scientific limits
 
-The illustrations are visual metaphors. The repetition example corrects one injected X error; it does not demonstrate arbitrary noise correction, fault tolerance or hardware execution. Exact probabilities are distinct from observed counts. No quantum advantage is claimed. See the README for bit ordering and measurement-basis explanations.
+The repetition example corrects one injected X error, not arbitrary noise. The illustrations are metaphors. Exact probabilities are distinguished from sampled counts. No quantum advantage, fault tolerance or hardware result is claimed.
 
 ## Accessibility
 
-Each video has narration, burned-in subtitles and editable captions. The lab supports keyboard navigation, labelled inputs, visible focus and text result tables. Video playback is optional for running the experiments. The interface labels include English and Portuguese; video lessons are provided in all three languages. No completed WCAG audit is claimed.
+Videos include synthetic narration, burned-in subtitles and editable ASS/SRT captions. Text scripts accompany the media. The lab provides keyboard controls, visible focus, labelled inputs, text result tables and live status. Playback is optional; no flashing or forced autoplay is used. Interface labels are in English and Portuguese, while videos and documentation cover all four language variants. A completed WCAG audit is not claimed.
 
 ## Source, license and originality
 
-[Git repository](https://github.com/SouBeatrizKaroline/qubit-stories).
+MIT covers the software and documentation. The original YouTube stories remain the property of their rights holders; public links do not grant redistribution rights. Their authorship, dates and tools remain unconfirmed. New scripts, translations, diagrams and production were prepared with Codex assistance on October 11, 2026. Generated artwork and synthetic narration are disclosed in the production notes. Keep the original English MIT license as the authoritative license text; these explanations do not replace it.
 
-Software and documentation: MIT. The software, expanded scripts, diagrams, translation and production were prepared with Codex assistance on October 11, 2026. Production notes disclose image generation and synthetic voice tools. PROVENANCE.md records the disclosure still needed for the original source videos and any pre-existing material; those facts have not been invented. External media rights remain with their respective rights holders.
+[Git repository](https://github.com/SouBeatrizKaroline/qubit-stories)
 
-## Hackathon demo and publication status
+## Demo and publication status
 
-These 9min30s learning videos and short chapters are educational assets. A separate public 2–3 minute demo showing this runnable project is still required. GitHub publication is complete; the project still needs import, free-simulator verification, MIT publication and submission in Qollab. Publishing learning assets does not itself submit an entry.
+GitHub publication of the learning materials is complete. Qollab import, free-simulator and IonQ checks, MIT publication and final hackathon submission remain pending. A separate public 2–3 minute demonstration must show the runnable lab; the long educational videos do not replace it.
+
+---
+
+[English](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/docs/en/README.md) | [Português (Brasil)](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/docs/pt-BR/README.md) | [Português (Portugal)](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/docs/pt-PT/README.md) | [Español](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/docs/es/README.md)
 
 This effort is supported by Qollab & IonQ

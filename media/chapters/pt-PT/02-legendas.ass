@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:04.98,Default,,0,0,0,,Antes de conhecer o qubit vamos começar por uma ideia\Nfamiliar o bit Um bit pode ter o
+Dialogue: 0,0:00:04.98,0:00:09.96,Default,,0,0,0,,valor zero ou o valor um Podemos imaginar um interruptor\Ndesligado representa zero e
+Dialogue: 0,0:00:09.96,0:00:14.20,Default,,0,0,0,,ligado representa um Esta comparação ajuda-nos a\Ncompreender a informação mas um
+Dialogue: 0,0:00:14.20,0:00:17.70,Default,,0,0,0,,computador real pode representar estes valores de outras\Nformas por exemplo através de
+Dialogue: 0,0:00:17.70,0:00:22.82,Default,,0,0,0,,diferentes tensões elétricas Fotografias mensagens e\Njogos são guardados em enormes
+Dialogue: 0,0:00:22.82,0:00:27.19,Default,,0,0,0,,conjuntos de bits Ao seguirem regras que transformam\Nessa informação os computadores
+Dialogue: 0,0:00:27.19,0:00:31.47,Default,,0,0,0,,realizam cálculos A pergunta da nossa exploradora é\Nsimples e se a natureza nos
+Dialogue: 0,0:00:31.47,0:00:33.81,Default,,0,0,0,,permitisse transformar a informação de uma maneira\Ndiferente

@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.42,0:00:05.08,Default,,0,0,0,,Para alterar o estado de um qubit usamos operações\Nchamadas portas quânticas A porta xis
+Dialogue: 0,0:00:05.08,0:00:09.55,Default,,0,0,0,,troca os estados zero e um A porta Hadamard representada\Npela letra agá transforma um
+Dialogue: 0,0:00:09.55,0:00:13.97,Default,,0,0,0,,zero numa sobreposição com probabilidades iguais na base\Nde medição Outras portas alteram
+Dialogue: 0,0:00:13.97,0:00:18.42,Default,,0,0,0,,a fase ou realizam rotações Podemos desenhar estas\Noperações numa linha primeiro
+Dialogue: 0,0:00:18.42,0:00:23.38,Default,,0,0,0,,preparamos o estado depois aplicamos as portas e por fim\Nfazemos a medição Este desenho é
+Dialogue: 0,0:00:23.38,0:00:28.80,Default,,0,0,0,,um circuito quântico A ordem das operações importa Tal\Ncomo numa receita trocar os passos
+Dialogue: 0,0:00:28.80,0:00:32.65,Default,,0,0,0,,pode mudar o resultado Uma operação isolada não explica\No comportamento de todo o
+Dialogue: 0,0:00:32.65,0:00:33.22,Default,,0,0,0,,circuito

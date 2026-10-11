@@ -1,0 +1,16 @@
+00:00 A floresta dos qubits
+00:33 Primeiro, um bit
+01:08 Conhece o qubit
+01:40 Sobreposição não é uma moeda escondida
+02:14 Medir é fazer uma pergunta ao sistema
+02:48 As portas quânticas
+03:23 Interferência
+03:58 Uma experiência com a fase
+04:33 Entrelaçamento quântico
+05:07 Sem mensagens instantâneas
+05:44 Da história ao laboratório
+06:26 O desafio do ruído
+07:02 Três qubits para proteger informação
+07:39 Onde pode isto ajudar?
+08:19 Vê, prevê, executa, explica
+08:56 O próximo passo é a tua pergunta

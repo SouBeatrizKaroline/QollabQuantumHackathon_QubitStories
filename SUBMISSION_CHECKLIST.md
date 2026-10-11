@@ -1,32 +1,34 @@
 # Submission checklist
 
-## Prepared and published on GitHub
+## Prepared and published
 
-- [x] Three full illustrated learning videos, approximately 9min30s each: English, Portuguese and Spanish.
-- [x] 48 independent narrated chapters, 16 per language, with burned-in subtitles and editable captions.
-- [x] Public video indexes and direct MP4 links.
-- [x] Three original YouTube stories preserved with concept mappings and provenance notes.
-- [x] Eight Qiskit experiments linked to relevant chapters in each language.
-- [x] Supplied-backend execution and one job per run, including Qollab's IonQ constraint.
-- [x] MIT software/documentation license and required attribution.
-- [x] Copy-ready Qollab title, short description and project-card text.
-- [x] Separate Qollab runtime ZIP that excludes large MP4 files.
-- [x] Scientific limitations, production-tool disclosure and accessibility information.
-- [x] Local Qiskit tests for phase, single-X recovery and one-job count results.
+- [x] Four full illustrated videos, approximately 9min30s each, in EN, ES, pt-BR and pt-PT.
+- [x] 64 narrated chapter videos with burned-in and editable captions; 16 per variant.
+- [x] README, project card, setup guide, deliverables, checklist, provenance and production notes in all four variants.
+- [x] Eight Qiskit activities linked to the relevant chapters, one backend job per run and local checks passed.
+- [x] Public MP4 indexes, runtime package, MIT software/documentation license and required attribution.
 
-## Remaining before submission
+## Pending before submission
 
-- [ ] Confirm authorship, dates, AI tools and third-party assets of the three original YouTube videos in PROVENANCE.md.
-- [ ] Confirm Qollab team registration and membership.
-- [ ] Import qollab-runtime.zip and verify the interface on Qollab's free local simulator.
-- [ ] Verify the project on Qollab's free IonQ simulator. No remote result is claimed yet.
-- [ ] Publish the runnable project on Qollab under MIT before the deadline and preserve it for the required period.
-- [ ] Record a separate 2–3 minute public demo of the runnable lab; the learning series does not replace this recording.
-- [ ] Review the synthetic narration and captions before final submission.
-- [ ] Add the Git repository URL and complete the hackathon submission flow.
+- [ ] Confirm authorship, dates, tools and third-party assets for the original three YouTube sources.
+- [ ] Confirm team registration and membership in Qollab.
+- [ ] Import the runtime ZIP and check the interface in Qollab's free local simulator.
+- [ ] Verify execution in Qollab's free IonQ simulator.
+- [ ] Review translated narration, subtitles and all media rights.
+- [ ] Publish the runnable Qollab project under MIT and retain it for the required period.
+- [ ] Record and publish a separate 2–3 minute demonstration of the lab.
+- [ ] Add the Git repository URL and complete the hackathon submission.
 
-Official requirements: https://qollab.xyz/programs/hackathon/terms#submissions
+The announced deadline is October 11, 2026, 19:00 ET (20:00 São Paulo), subject to organizer updates. Publishing on GitHub alone is not a Qollab submission or proof of eligibility.
 
-The announced deadline is October 11, 2026 at 19:00 ET (20:00 São Paulo), subject to any organizer-announced extension. GitHub publication is not a Qollab submission or proof of eligibility.
+- [Qollab — hackathon](https://qollab.xyz/programs/hackathon/terms#submissions)
+- [Qollab — Python/Qiskit](https://qollab.xyz/learn/docs/python-qiskit-projects)
+- [Qollab — runtime](https://qollab.xyz/learn/docs/runtime-environment)
+- [Qollab — project page](https://qollab.xyz/learn/docs/write-your-project-page)
+- [IBM Quantum — repetition codes](https://quantum.cloud.ibm.com/learning/en/courses/foundations-of-quantum-error-correction/correcting-quantum-errors/repetition-codes)
+
+---
+
+[English](docs/en/README.md) | [Português (Brasil)](docs/pt-BR/README.md) | [Português (Portugal)](docs/pt-PT/README.md) | [Español](docs/es/README.md)
 
 This effort is supported by Qollab & IonQ

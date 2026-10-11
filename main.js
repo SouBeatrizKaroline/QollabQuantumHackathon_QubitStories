@@ -1,6 +1,6 @@
 import * as quantum from 'quantum';
 
-const videoInfo = [["The Forest of Qubits", "English · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/en/the-forest-of-qubits.mp4"], ["A floresta dos qubits", "Português · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt/a-floresta-dos-qubits.mp4"], ["El bosque de los cúbits", "Español · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/es/el-bosque-de-los-cubits.mp4"]];
+const videoInfo = [["The Forest of Qubits", "English · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/en/the-forest-of-qubits.mp4"], ["A floresta dos qubits", "Português (Brasil) · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt/a-floresta-dos-qubits.mp4"], ["El bosque de los cúbits", "Español · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/es/el-bosque-de-los-cubits.mp4"], ["A floresta dos qubits — Portugal", "Português (Portugal) · 16 chapters / capítulos", "https://raw.githubusercontent.com/SouBeatrizKaroline/qubit-stories/main/media/full/pt-PT/a-floresta-dos-qubits-pt-PT.mp4"]];
 const videoRoot = document.getElementById('videos');
 videoInfo.forEach(([title, subtitle, url]) => {
   const card = document.createElement('article');

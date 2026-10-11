@@ -1,0 +1,643 @@
+1
+00:00:00,421 --> 00:00:04,337
+Imagina uma floresta onde cada caminho revela uma
+pergunta Porque precisam algumas
+
+2
+00:00:04,337 --> 00:00:09,211
+máquinas de temperaturas tão baixas Como pode uma
+partícula guardar informação E porque
+
+3
+00:00:09,211 --> 00:00:12,250
+não são os computadores quânticos simplesmente versões
+mais rápidas dos computadores
+
+4
+00:00:12,250 --> 00:00:16,814
+habituais Nesta aventura uma jovem exploradora e Kubi o
+seu companheiro luminoso vão
+
+5
+00:00:16,814 --> 00:00:20,792
+ajudar-nos a descobrir as respostas A floresta e a
+mascote são personagens de uma
+
+6
+00:00:20,792 --> 00:00:25,896
+história Os conceitos que vamos explorar pertencem à
+ciência Não precisamos de magia para
+
+7
+00:00:25,896 --> 00:00:30,043
+nos surpreendermos Precisamos de curiosidade de bons
+exemplos e de cuidado para
+
+8
+00:00:30,043 --> 00:00:32,161
+distinguir aquilo que imaginamos daquilo que conseguimos
+medir
+
+9
+00:00:33,836 --> 00:00:38,393
+Antes de conhecer o qubit vamos começar por uma ideia
+familiar o bit Um bit pode ter o
+
+10
+00:00:38,393 --> 00:00:43,373
+valor zero ou o valor um Podemos imaginar um interruptor
+desligado representa zero e
+
+11
+00:00:43,373 --> 00:00:47,612
+ligado representa um Esta comparação ajuda-nos a
+compreender a informação mas um
+
+12
+00:00:47,612 --> 00:00:51,111
+computador real pode representar estes valores de outras
+formas por exemplo através de
+
+13
+00:00:51,111 --> 00:00:56,225
+diferentes tensões elétricas Fotografias mensagens e
+jogos são guardados em enormes
+
+14
+00:00:56,225 --> 00:01:00,599
+conjuntos de bits Ao seguirem regras que transformam
+essa informação os computadores
+
+15
+00:01:00,599 --> 00:01:04,877
+realizam cálculos A pergunta da nossa exploradora é
+simples e se a natureza nos
+
+16
+00:01:04,877 --> 00:01:07,223
+permitisse transformar a informação de uma maneira
+diferente
+
+17
+00:01:08,943 --> 00:01:13,325
+Um qubit é uma unidade de informação quântica Quando
+usamos a base a que chamamos zero e
+
+18
+00:01:13,325 --> 00:01:17,219
+um podemos preparar um estado associado ao zero ao um ou
+a uma sobreposição desses dois
+
+19
+00:01:17,219 --> 00:01:22,614
+estados de base Talvez ouças dizer que o qubit é zero e
+um ao mesmo tempo Esta frase é
+
+20
+00:01:22,614 --> 00:01:27,120
+uma aproximação que pode causar confusão É mais rigoroso
+dizer que o seu estado pode ser
+
+21
+00:01:27,120 --> 00:01:31,827
+uma combinação quântica dos estados da base A esfera
+luminosa da nossa história é apenas
+
+22
+00:01:31,827 --> 00:01:36,218
+uma personagem que representa esta ideia Um qubit real
+pode ser implementado com sistemas
+
+23
+00:01:36,218 --> 00:01:39,471
+físicos muito diferentes como iões ou circuitos
+supercondutores
+
+24
+00:01:41,184 --> 00:01:45,772
+Se uma moeda estiver escondida numa caixa talvez não
+saibas se mostra cara ou coroa Essa
+
+25
+00:01:45,772 --> 00:01:50,199
+falta de conhecimento não é o mesmo que uma sobreposição
+quântica Para descrever um qubit
+
+26
+00:01:50,304 --> 00:01:55,376
+usamos amplitudes Estas determinam as probabilidades dos
+resultados e incluem uma relação
+
+27
+00:01:55,376 --> 00:02:00,599
+chamada fase Esta fase será importante quando as
+amplitudes interferirem Um estado pode
+
+28
+00:02:00,599 --> 00:02:03,984
+dar probabilidades iguais de zero e um mas outros
+estados podem ter probabilidades
+
+29
+00:02:03,984 --> 00:02:08,193
+diferentes Não é correto afirmar que todos os qubits têm
+sempre cinquenta por cento de
+
+30
+00:02:08,193 --> 00:02:12,564
+probabilidade de cada resultado Tudo depende da
+preparação e da forma como fazemos a
+
+31
+00:02:12,564 --> 00:02:13,056
+medição
+
+32
+00:02:14,779 --> 00:02:19,563
+Agora Kubi chega a um portão com duas saídas zero e um
+No nosso exemplo o qubit foi
+
+33
+00:02:19,563 --> 00:02:24,245
+preparado com probabilidades iguais Quando fazemos a
+medição nesta base obtemos um único
+
+34
+00:02:24,245 --> 00:02:30,019
+resultado Não recebemos uma lista de todas as
+possibilidades Imaginemos cem experiências
+
+35
+00:02:30,639 --> 00:02:35,071
+Em cada uma delas preparamos novamente o mesmo estado e
+depois fazemos a medição Podemos
+
+36
+00:02:35,071 --> 00:02:38,717
+obter aproximadamente cinquenta zeros e cinquenta uns
+mas os números exatos variam
+
+37
+00:02:39,337 --> 00:02:43,603
+Repetir a preparação é essencial Medir novamente o mesmo
+qubit logo após a primeira
+
+38
+00:02:43,603 --> 00:02:47,064
+medição sem uma transformação adicional não corresponde
+a realizar uma nova experiência
+
+39
+00:02:47,064 --> 00:02:47,656
+independente
+
+40
+00:02:49,356 --> 00:02:54,015
+Para alterar o estado de um qubit usamos operações
+chamadas portas quânticas A porta xis
+
+41
+00:02:54,015 --> 00:02:58,485
+troca os estados zero e um A porta Hadamard representada
+pela letra agá transforma um
+
+42
+00:02:58,485 --> 00:03:02,900
+zero numa sobreposição com probabilidades iguais na base
+de medição Outras portas alteram
+
+43
+00:03:02,900 --> 00:03:07,351
+a fase ou realizam rotações Podemos desenhar estas
+operações numa linha primeiro
+
+44
+00:03:07,351 --> 00:03:12,309
+preparamos o estado depois aplicamos as portas e por fim
+fazemos a medição Este desenho é
+
+45
+00:03:12,309 --> 00:03:17,729
+um circuito quântico A ordem das operações importa Tal
+como numa receita trocar os passos
+
+46
+00:03:17,729 --> 00:03:21,583
+pode mudar o resultado Uma operação isolada não explica
+o comportamento de todo o
+
+47
+00:03:21,583 --> 00:03:22,153
+circuito
+
+48
+00:03:23,834 --> 00:03:29,594
+Na floresta duas ondas atravessam o lago Em alguns
+pontos reforçam-se noutros cancelam-se
+
+49
+00:03:30,217 --> 00:03:34,593
+É uma metáfora visual para a interferência Num circuito
+quântico são as amplitudes que
+
+50
+00:03:34,593 --> 00:03:38,681
+interferem e não pequenas bolas que escolhem caminhos
+por vontade própria Operações bem
+
+51
+00:03:38,681 --> 00:03:43,299
+planeadas podem aumentar a probabilidade de certos
+resultados e diminuir a de outros Este
+
+52
+00:03:43,299 --> 00:03:47,834
+mecanismo participa em muitos algoritmos quânticos Mas
+precisamos de conhecer a estrutura
+
+53
+00:03:47,834 --> 00:03:52,098
+do problema e de construir o circuito adequado Não basta
+ligar um computador quântico
+
+54
+00:03:52,098 --> 00:03:55,908
+para que encontre automaticamente a melhor resposta A
+interferência é uma ferramenta que
+
+55
+00:03:55,908 --> 00:03:57,385
+tem de ser usada com um objetivo
+
+56
+00:03:59,079 --> 00:04:03,504
+Vamos transformar a metáfora numa experiência Começamos
+com zero e aplicamos uma Hadamard
+
+57
+00:04:04,066 --> 00:04:08,273
+Se fizermos a medição agora teremos probabilidades
+iguais de zero e um Podemos alterar a
+
+58
+00:04:08,273 --> 00:04:12,496
+fase relativa e continuar a observar essas mesmas
+probabilidades nesta base A diferença
+
+59
+00:04:12,496 --> 00:04:16,577
+torna-se visível quando aplicamos outra Hadamard antes
+de medir Sem alteração da fase
+
+60
+00:04:16,661 --> 00:04:21,531
+regressamos ao zero Com uma alteração de cento e oitenta
+graus obtemos um Com noventa
+
+61
+00:04:21,531 --> 00:04:26,661
+graus os resultados ficam equilibrados Vês a diferença A
+fase pode ficar escondida numa
+
+62
+00:04:26,661 --> 00:04:30,884
+escolha de medição e aparecer noutra Uma moeda clássica
+desconhecida não reproduz por si
+
+63
+00:04:30,884 --> 00:04:31,959
+só este comportamento
+
+64
+00:04:33,609 --> 00:04:38,184
+A exploradora encontra duas lanternas que representam um
+par de qubits Podemos preparar
+
+65
+00:04:38,184 --> 00:04:41,890
+um estado entrelaçado usando uma Hadamard e uma porta de
+negação controlada também
+
+66
+00:04:41,890 --> 00:04:47,047
+chamada CNOT Neste exemplo ao medir os dois qubits na
+base zero e um os resultados podem
+
+67
+00:04:47,047 --> 00:04:51,532
+ser zero zero ou um um O estado do par não pode ser
+descrito como dois estados
+
+68
+00:04:51,532 --> 00:04:56,531
+individuais independentes Contudo observar resultados
+iguais numa única base não prova
+
+69
+00:04:56,629 --> 00:05:00,799
+por si só que existe entrelaçamento objetos clássicos
+também podem estar correlacionados
+
+70
+00:05:01,460 --> 00:05:05,344
+Por isso no nosso laboratório comparamos medições em
+diferentes bases conhecendo o
+
+71
+00:05:05,344 --> 00:05:06,498
+circuito que preparou o par.
+
+72
+00:05:08,244 --> 00:05:11,609
+A imagem das lanternas pode dar a impressão de que uma
+envia uma mensagem instantânea à
+
+73
+00:05:11,609 --> 00:05:16,860
+outra Esta interpretação está errada Quem mede um dos
+qubits não pode escolher livremente
+
+74
+00:05:16,860 --> 00:05:21,570
+o resultado para transmitir uma frase Vistos
+individualmente os resultados do exemplo
+
+75
+00:05:21,570 --> 00:05:25,750
+parecem aleatórios Para comparar as correlações as
+pessoas precisam de partilhar
+
+76
+00:05:25,750 --> 00:05:30,005
+informação através de um canal habitual respeitando os
+limites da comunicação O
+
+77
+00:05:30,005 --> 00:05:33,200
+entrelaçamento é uma propriedade importante da natureza
+e pode ser um recurso para
+
+78
+00:05:33,200 --> 00:05:37,749
+tecnologias quânticas Mas não transforma a nossa
+floresta num telefone mais rápido do que
+
+79
+00:05:37,749 --> 00:05:42,270
+a luz A metáfora deve ajudar-nos a compreender sem
+inventar um poder que a física não
+
+80
+00:05:42,270 --> 00:05:42,848
+oferece
+
+81
+00:05:44,564 --> 00:05:50,427
+Como constroem os engenheiros estes sistemas Existem
+várias abordagens Numa delas
+
+82
+00:05:50,524 --> 00:05:54,312
+circuitos supercondutores funcionam a temperaturas muito
+baixas em equipamentos próprios
+
+83
+00:05:54,312 --> 00:05:58,866
+para arrefecimento e controlo Noutra iões aprisionados
+são controlados com campos e
+
+84
+00:05:58,866 --> 00:06:04,167
+lasers Não são duas versões da mesma máquina cada
+tecnologia tem vantagens desafios e
+
+85
+00:06:04,167 --> 00:06:08,837
+necessidades de engenharia diferentes Além dos qubits
+precisamos de sistemas clássicos
+
+86
+00:06:08,837 --> 00:06:13,769
+para preparar operações recolher resultados e analisar
+dados A computação quântica
+
+87
+00:06:13,769 --> 00:06:18,565
+trabalha em conjunto com a computação clássica A nossa
+floresta representa ideias não o
+
+88
+00:06:18,565 --> 00:06:22,906
+interior literal de um processador Conhecer esta
+diferença ajuda-nos a passar da história
+
+89
+00:06:22,906 --> 00:06:24,990
+para uma compreensão mais rigorosa do laboratório
+
+90
+00:06:26,713 --> 00:06:31,266
+No caminho para o observatório uma brisa altera as
+lanternas É uma metáfora para o ruído
+
+91
+00:06:31,873 --> 00:06:35,729
+Nos sistemas reais interações indesejadas controlo
+imperfeito e outros efeitos podem
+
+92
+00:06:35,729 --> 00:06:40,011
+alterar os estados e os resultados das medições Podemos
+estudar diferentes modelos de
+
+93
+00:06:40,011 --> 00:06:43,749
+erro mas nenhum desenho simples representa todos os
+problemas de uma máquina Uma
+
+94
+00:06:43,749 --> 00:06:48,130
+simulação ideal também não é uma demonstração de
+funcionamento num dispositivo físico No
+
+95
+00:06:48,130 --> 00:06:52,674
+nosso laboratório vamos introduzir deliberadamente um
+erro de bit com uma porta xis Assim
+
+96
+00:06:52,738 --> 00:06:56,241
+sabemos exatamente qual foi o erro aplicado e podemos
+comparar o resultado com e sem
+
+97
+00:06:56,241 --> 00:06:59,599
+proteção Dizer claramente quais são as condições da
+experiência
+
+98
+00:06:59,599 --> 00:07:01,681
+faz parte de uma explicação científica  rigorosa
+
+99
+00:07:03,358 --> 00:07:08,202
+Como podemos proteger informação Num exemplo
+simplificado codificamos um qubit lógico em
+
+100
+00:07:08,202 --> 00:07:13,317
+três qubits físicos Para uma entrada zero o padrão pode
+ser zero zero zero Se
+
+101
+00:07:13,317 --> 00:07:18,133
+introduzirmos um único erro de bit um dos valores muda
+Um circuito de recuperação usa a
+
+102
+00:07:18,133 --> 00:07:22,325
+informação sobre esse erro para restaurar o qubit lógico
+O código de repetição também
+
+103
+00:07:22,325 --> 00:07:25,157
+pode preservar a coerência de um estado codificado
+quando o erro pertence ao modelo
+
+104
+00:07:25,157 --> 00:07:30,020
+considerado Não estamos a copiar livremente um estado
+quântico desconhecido E este
+
+105
+00:07:30,020 --> 00:07:33,429
+exemplo não corrige qualquer tipo de ruído não resolve
+erros de fase nem dois erros de
+
+106
+00:07:33,429 --> 00:07:37,779
+bit É uma primeira experiência não uma demonstração
+completa de tolerância a falhas
+
+107
+00:07:39,488 --> 00:07:44,126
+As possibilidades de aplicação despertam muita
+curiosidade Uma delas é estudar sistemas
+
+108
+00:07:44,126 --> 00:07:48,682
+quânticos como certas moléculas e materiais com modelos
+e algoritmos adequados Há
+
+109
+00:07:48,682 --> 00:07:53,476
+investigação em otimização comunicação e sensores Mas a
+palavra quântico não garante que
+
+110
+00:07:53,476 --> 00:07:58,031
+uma solução seja melhor Para falar em vantagem
+precisamos de comparar métodos custos
+
+111
+00:07:58,114 --> 00:08:02,532
+precisão e condições de execução Alguns problemas
+continuarão a ser mais adequados aos
+
+112
+00:08:02,532 --> 00:08:06,749
+computadores clássicos Outros poderão beneficiar de
+abordagens que combinam ferramentas
+
+113
+00:08:06,749 --> 00:08:11,845
+clássicas e quânticas Nesta aventura aprendemos
+conceitos não demonstrámos uma vantagem
+
+114
+00:08:11,845 --> 00:08:16,327
+computacional Fazer esta distinção faz parte de uma boa
+explicação científica e  torna as
+
+115
+00:08:16,327 --> 00:08:18,161
+descobertas reais ainda mais interessantes
+
+116
+00:08:19,860 --> 00:08:24,637
+Agora podemos sair da imaginação e testar as ideias O
+projeto Qubit Stories reúne esta
+
+117
+00:08:24,637 --> 00:08:28,680
+série educativa em quatro variantes linguísticas inglês
+espanhol português do Brasil e
+
+118
+00:08:28,680 --> 00:08:32,759
+português de Portugal Cada experiência aponta para o
+capítulo correspondente da história
+
+119
+00:08:33,382 --> 00:08:38,168
+Antes de revelar os resultados escreve a tua previsão
+Executa os circuitos num simulador
+
+120
+00:08:38,168 --> 00:08:41,598
+gratuito compara as contagens com as probabilidades
+ideais e explica o que mudou
+
+121
+00:08:42,220 --> 00:08:45,538
+Experimenta fases diferentes observa o par entrelaçado e
+compara a informação
+
+122
+00:08:45,538 --> 00:08:49,664
+desprotegida com a recuperação do erro de bit Aprender
+não é apenas repetir palavras
+
+123
+00:08:49,664 --> 00:08:54,729
+difíceis É fazer perguntas formular previsões e
+descobrir como verificar uma explicação
+
+124
+00:08:56,447 --> 00:09:00,745
+A nossa exploradora chega ao observatório Agora sabe que
+um bit tem dois valores
+
+125
+00:09:00,745 --> 00:09:04,492
+possíveis que um qubit pode ser preparado em
+sobreposição e que uma medição nesta base dá
+
+126
+00:09:04,492 --> 00:09:08,888
+um resultado Aprendeu que a fase e a interferência
+importam que o entrelaçamento descreve
+
+127
+00:09:08,888 --> 00:09:12,871
+um estado conjunto e que a engenharia tem de enfrentar
+erros Também descobriu que os
+
+128
+00:09:12,871 --> 00:09:17,590
+desenhos são metáforas e que fazer ciência não significa
+prometer resultados mágicos A
+
+129
+00:09:17,590 --> 00:09:22,986
+floresta continua cheia de caminhos Que experiência
+gostarias de fazer agora Continua a
+
+130
+00:09:22,986 --> 00:09:27,706
+perguntar a comparar e a aprender O nosso maior poder é
+compreender um pouco melhor como
+
+131
+00:09:27,706 --> 00:09:28,687
+funciona a natureza

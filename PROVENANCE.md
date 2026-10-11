@@ -1,27 +1,30 @@
-# Provenance and authorship disclosure
+# Provenance and authorship
 
 ## Known facts
 
-- The participant supplied three public YouTube links: EAcDVqTb0lk, nkQpc2YPSCA and uPTSfysNvgw.
-- The visible channel name for the first two videos was “Aspirante Qualquer”. This is not by itself proof of authorship or media rights.
-- The executable Qiskit companion, interface, tests and documentation were prepared with Codex assistance on October 11, 2026.
-- Video scene mappings were derived from auto-generated YouTube captions, with qubit spelling normalized in documentation. Full transcripts are not redistributed.
-- No tutorial code or external repository was copied into this implementation. It uses standard Qiskit APIs and the documented Qollab runtime bridge.
+The participant supplied three public YouTube URLs and a local 30-second style reference. The visible channel name for the first two sources was Aspirante Qualquer; this does not establish authorship or rights. Original scene timings were derived from auto-generated captions, with spelling normalized. Full original transcripts and downloaded YouTube media are not redistributed. No external tutorial code was copied; the implementation uses standard Qiskit APIs and the documented Qollab bridge.
 
-## Required author disclosure before submission
+- [The World of Qubits — English](https://youtu.be/EAcDVqTb0lk)
+- [O Mundo dos Qubits — pt-BR](https://youtu.be/nkQpc2YPSCA)
+- [The Fellowship Of The Qubit — English](https://youtu.be/uPTSfysNvgw)
 
-The author must confirm when each video was created; which production tools, models and third-party assets were used; what predates the October 9–11 build window; and the changes made during the event. These facts have not been provided and are not invented here.
+## New production
 
-The supplied local file `gemini_generated_video_a97f5f87.mp4` is a 30-second style reference for the expanded illustrated series. Its filename suggests generated media but does not establish the tools used for the three published videos. It is not included or presented as a new completed asset in this repository.
+The lab, new scripts, translations, diagrams, illustrated videos and documentation were prepared with Codex assistance on October 11, 2026. Four versions have aligned transitions: en-US, es-MX, pt-BR and pt-PT. The Portuguese versions have separate scripts and narration. Artwork was generated with the integrated image tool; Edge synthetic voices were accessed via edge-tts. Pillow and FFmpeg were used for composition. This is an illustrated video with camera movement, not continuous 3D character animation. The original style-reference file is not redistributed.
 
-## Rights scope
+## Still to be confirmed
 
-MIT covers this repository's software and documentation. Referencing a public YouTube video does not grant rights to its soundtrack, voices, artwork or other media. Confirm your rights and disclose third-party sources before distributing original video files or assigning licenses to them.
+Creation dates, authorship, AI tools and third-party music, voice and artwork rights for the three original sources have not been provided. The author must disclose any assets predating the October 9–11 build window and identify work produced during the event. These facts are not invented. Review generated translations, narration and applicable media terms before submission. Local tests do not establish a successful Qollab or IonQ run.
 
-## Expanded series produced on October 11, 2026
+## Sources, authorship and license
 
-Three approximately 9min30s illustrated videos and 48 narrated chapters were produced in English, Brazilian Portuguese and Latin American Spanish. Their transitions are aligned across languages. This is an illustrated production with camera movement, diagrams and subtitles; it is not a continuous 3D character animation.
+MIT covers the software and documentation. The original YouTube stories remain the property of their rights holders; public links do not grant redistribution rights. Their authorship, dates and tools remain unconfirmed. New scripts, translations, diagrams and production were prepared with Codex assistance on October 11, 2026. Generated artwork and synthetic narration are disclosed in the production notes. Keep the original English MIT license as the authoritative license text; these explanations do not replace it.
 
-The forest artwork was generated with the image-generation tool available in Codex. Scripts and translations were prepared with Codex assistance. Synthetic narration uses Microsoft Edge voices en-US-AriaNeural, pt-BR-FranciscaNeural and es-MX-DaliaNeural through edge-tts. Pillow and FFmpeg were used for composition and rendering. The supplied reference clip was not redistributed. Detailed tools, prompt and limitations are in [production notes](media/PRODUCTION_NOTES.md).
+[Production notes](docs/en/PRODUCTION_NOTES.md)
 
-These new materials are distinct from the three original YouTube videos. The creation dates, tools and rights of those originals remain unconfirmed. The participant should review the generated narration, translations and media terms before the final hackathon submission. Local simulation checks do not establish successful execution in Qollab or IonQ.
+
+---
+
+[English](docs/en/README.md) | [Português (Brasil)](docs/pt-BR/README.md) | [Português (Portugal)](docs/pt-PT/README.md) | [Español](docs/es/README.md)
+
+This effort is supported by Qollab & IonQ

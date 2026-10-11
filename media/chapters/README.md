@@ -1,13 +1,12 @@
-# Capítulos em três idiomas
+# Chapters · Capítulos — EN / ES / PT-BR / PT-PT
 
-48 vídeos individuais: 16 capítulos por idioma, com a mesma sequência educativa. Todos contêm narração sintética e legendas incorporadas.
+[English](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/docs/en/README.md) | [Português (Brasil)](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/docs/pt-BR/README.md) | [Português (Portugal)](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/docs/pt-PT/README.md) | [Español](https://github.com/SouBeatrizKaroline/qubit-stories/blob/main/docs/es/README.md)
 
-- [Português brasileiro — 16 capítulos](pt/README.md)
-- [English — 16 chapters](en/README.md)
-- [Español latinoamericano — 16 capítulos](es/README.md)
+64 MP4 · 4 × 16
 
-Os índices oferecem links diretos para assistir ou baixar os arquivos MP4. As legendas ASS são fornecidas para edição.
+- [English — 16](./en/README.md)
+- [Português (Brasil) — 16](./pt/README.md)
+- [Español — 16](./es/README.md)
+- [Português (Portugal) — 16](./pt-PT/README.md)
 
-Os [três vídeos completos de aproximadamente 9min30s](../full/README.md) também estão publicados no repositório; esta pasta contém os capítulos individuais. O laboratório Qollab usa apenas os arquivos de execução indicados no README principal, sem importar estes MP4s.
-
-This effort is supported by Qollab & IonQ
+[Full videos / Vídeos completos / Videos completos](../full/README.md)

@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:04.81,Default,,0,0,0,,Um qubit é uma unidade de informação quântica Quando\Nusamos a base a que chamamos zero e
+Dialogue: 0,0:00:04.81,0:00:08.70,Default,,0,0,0,,um podemos preparar um estado associado ao zero ao um ou\Na uma sobreposição desses dois
+Dialogue: 0,0:00:08.70,0:00:14.10,Default,,0,0,0,,estados de base Talvez ouças dizer que o qubit é zero e\Num ao mesmo tempo Esta frase é
+Dialogue: 0,0:00:14.10,0:00:18.60,Default,,0,0,0,,uma aproximação que pode causar confusão É mais rigoroso\Ndizer que o seu estado pode ser
+Dialogue: 0,0:00:18.60,0:00:23.31,Default,,0,0,0,,uma combinação quântica dos estados da base A esfera\Nluminosa da nossa história é apenas
+Dialogue: 0,0:00:23.31,0:00:27.70,Default,,0,0,0,,uma personagem que representa esta ideia Um qubit real\Npode ser implementado com sistemas
+Dialogue: 0,0:00:27.70,0:00:30.95,Default,,0,0,0,,físicos muito diferentes como iões ou circuitos\Nsupercondutores

@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,26,&H00FFFFFF,&H00FFFFFF,&H00101A29,&H90101A29,0,0,0,0,100,100,0,0,3,1,0,2,60,60,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.42,0:00:05.21,Default,,0,0,0,,Agora Kubi chega a um portão com duas saídas zero e um\NNo nosso exemplo o qubit foi
+Dialogue: 0,0:00:05.21,0:00:09.89,Default,,0,0,0,,preparado com probabilidades iguais Quando fazemos a\Nmedição nesta base obtemos um único
+Dialogue: 0,0:00:09.89,0:00:15.66,Default,,0,0,0,,resultado Não recebemos uma lista de todas as\Npossibilidades Imaginemos cem experiências
+Dialogue: 0,0:00:16.28,0:00:20.72,Default,,0,0,0,,Em cada uma delas preparamos novamente o mesmo estado e\Ndepois fazemos a medição Podemos
+Dialogue: 0,0:00:20.72,0:00:24.36,Default,,0,0,0,,obter aproximadamente cinquenta zeros e cinquenta uns\Nmas os números exatos variam
+Dialogue: 0,0:00:24.98,0:00:29.25,Default,,0,0,0,,Repetir a preparação é essencial Medir novamente o mesmo\Nqubit logo após a primeira
+Dialogue: 0,0:00:29.25,0:00:32.71,Default,,0,0,0,,medição sem uma transformação adicional não corresponde\Na realizar uma nova experiência
+Dialogue: 0,0:00:32.71,0:00:33.30,Default,,0,0,0,,independente
