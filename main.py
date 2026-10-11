@@ -1,23 +1,100 @@
-"""Python fallback: upload this and quantum.py without index.html/main.js."""
+"""Standalone Python/Qiskit upload. Videos are external links, never bundled."""
 import json
 import math
-from quantum import run_suite
+from qiskit import QuantumCircuit, transpile
+from qiskit.quantum_info import Statevector
 
-def main(shots: int = 512, phase_degrees: float = 0.0, logical_one: bool = False):
-    report = json.loads(run_suite(backend, shots, math.radians(phase_degrees), logical_one))
+VIDEOS = [{'id': 'en', 'title': 'The Forest of Qubits', 'language': 'English', 'url': 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/full/en/the-forest-of-qubits.mp4', 'chapters': ['https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/01-the-forest-of-qubits.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/02-first-a-bit.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/03-meet-the-qubit.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/04-superposition-is-not-a-hidden-coin.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/05-measurement-asks-the-system-a-question.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/06-quantum-gates.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/07-interference.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/08-an-experiment-with-phase.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/09-entanglement.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/10-no-instant-messages.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/11-from-the-story-to-the-laboratory.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/12-the-challenge-of-noise.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/13-three-qubits-to-protect-information.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/14-where-could-this-help.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/15-watch-predict-run-explain.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/en/16-your-question-is-the-next-step.mp4']}, {'id': 'pt-BR', 'title': 'A floresta dos qubits', 'language': 'Português (Brasil)', 'url': 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/full/pt/a-floresta-dos-qubits.mp4', 'chapters': ['https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/01-a-floresta-dos-qubits.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/02-primeiro-um-bit.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/03-conheca-o-qubit.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/04-superposicao-nao-e-uma-moeda-escondida.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/05-medir-e-fazer-uma-pergunta-ao-sistema.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/06-as-portas-quanticas.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/07-interferencia.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/08-um-experimento-com-a-fase.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/09-emaranhamento.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/10-sem-mensagens-instantaneas.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/11-da-historia-para-o-laboratorio.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/12-o-desafio-do-ruido.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/13-tres-qubits-para-proteger-uma-informacao.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/14-onde-isso-pode-ajudar.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/15-assista-preveja-execute-explique.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt/16-o-proximo-passo-e-a-sua-pergunta.mp4']}, {'id': 'es', 'title': 'El bosque de los cúbits', 'language': 'Español', 'url': 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/full/es/el-bosque-de-los-cubits.mp4', 'chapters': ['https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/01-el-bosque-de-los-cubits.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/02-primero-un-bit.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/03-conoce-el-cubit.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/04-la-superposicion-no-es-una-moneda-oculta.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/05-medir-es-hacerle-una-pregunta-al-sistema.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/06-las-puertas-cuanticas.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/07-interferencia.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/08-un-experimento-con-la-fase.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/09-entrelazamiento.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/10-sin-mensajes-instantaneos.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/11-de-la-historia-al-laboratorio.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/12-el-desafio-del-ruido.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/13-tres-cubits-para-proteger-informacion.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/14-donde-puede-ser-util.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/15-mira-predice-ejecuta-explica.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/es/16-tu-pregunta-es-el-proximo-paso.mp4']}, {'id': 'pt-PT', 'title': 'A floresta dos qubits — Portugal', 'language': 'Português (Portugal)', 'url': 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/full/pt-PT/a-floresta-dos-qubits-pt-PT.mp4', 'chapters': ['https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/01-a-floresta-dos-qubits.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/02-primeiro-um-bit.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/03-conhece-o-qubit.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/04-sobreposicao-nao-e-uma-moeda-escondida.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/05-medir-e-fazer-uma-pergunta-ao-sistema.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/06-as-portas-quanticas.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/07-interferencia.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/08-uma-experiencia-com-a-fase.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/09-entrelacamento-quantico.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/10-sem-mensagens-instantaneas.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/11-da-historia-ao-laboratorio.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/12-o-desafio-do-ruido.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/13-tres-qubits-para-proteger-informacao.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/14-onde-pode-isto-ajudar.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/15-ve-preve-executa-explica.mp4', 'https://raw.githubusercontent.com/SouBeatrizKaroline/QollabQuantumHackathon_QubitStories/main/media/chapters/pt-PT/16-o-proximo-passo-e-a-tua-pergunta.mp4']}]
+
+CHAPTER_BY_EXPERIMENT = {"bit": 2, "superposition": 4, "phase_z": 8, "interference": 8, "bell_z": 9, "bell_x": 9, "unprotected": 12, "corrected": 13}
+
+
+def repetition_circuit(theta=0.0, error_qubit=0):
+    """Encode, inject one X, coherently decode and correct. q0 is recovered."""
+    qc = QuantumCircuit(3)
+    qc.ry(theta, 0)
+    qc.cx(0, 1)
+    qc.cx(0, 2)
+    if error_qubit in (0, 1, 2):
+        qc.x(error_qubit)
+    qc.cx(0, 1)
+    qc.cx(0, 2)
+    qc.ccx(1, 2, 0)
+    return qc
+
+def experiments(phase=0.0, logical_one=False):
+    """Exact predictions are separate from backend shot counts."""
+    items = []
+    def add(key, title, circuit, links, prediction, explanation):
+        ideal = {k: round(float(v), 8) for k, v in Statevector.from_instruction(circuit).probabilities_dict().items() if v > 1e-10}
+        measured = circuit.copy()
+        measured.measure_all()
+        chapter = CHAPTER_BY_EXPERIMENT[key]
+        items.append({"key": key, "title": title, "circuit": measured, "ideal": ideal, "chapter": chapter, "links": [video["chapters"][chapter - 1] for video in VIDEOS], "original_timestamps": links, "prediction": prediction, "explanation": explanation})
+    c = QuantumCircuit(1)
+    add("bit", "A definite zero / Um zero definido", c, [20, 15, 12], "0: 100%", "A computational-basis state gives a definite outcome in this basis.")
+    c = QuantumCircuit(1); c.h(0)
+    add("superposition", "Prepare, then measure / Preparar e medir", c, [48, 38, 12], "0: 50%, 1: 50%", "H prepares |+>. Repeated shots repeat preparation; they are not repeated measurements of one unchanged qubit.")
+    c = QuantumCircuit(1); c.h(0); c.p(phase, 0)
+    add("phase_z", "Phase hidden in Z / Fase oculta em Z", c, [97, 81, 24], "0: 50%, 1: 50% for every phase", "Changing relative phase leaves Z-basis probabilities unchanged. This is why superposition is more than a classical coin.")
+    c = QuantumCircuit(1); c.h(0); c.p(phase, 0); c.h(0)
+    add("interference", "Make phase visible / Tornar a fase visível", c, [97, 81, 24], f"P(0) = cos²(phase/2) = {math.cos(phase / 2)**2:.3f}", "The final H converts relative phase into a change in outcome probabilities. Phase 0 returns zero; phase pi returns one.")
+    c = QuantumCircuit(2); c.h(0); c.cx(0, 1)
+    add("bell_z", "A shared state / Um estado conjunto", c, [117, 98, 40], "00: 50%, 11: 50%", "Bell-state Z measurements are correlated. Each qubit's marginal remains 50/50. These correlations alone are not a proof of entanglement and do not transmit messages.")
+    c = QuantumCircuit(2); c.h(0); c.cx(0, 1); c.h(0); c.h(1)
+    add("bell_x", "Change both measurement bases / Mudar as duas bases", c, [117, 98, 40], "00: 50%, 11: 50%", "H before measurement measures X. The prepared Bell state stays correlated in both X and Z; a classical 00/11 mixture would be uncorrelated in X.")
+    c = QuantumCircuit(1)
+    if logical_one: c.x(0)
+    c.x(0)
+    add("unprotected", "One bit flip / Um erro de bit", c, [None, None, 70], f"Incorrect logical bit: {0 if logical_one else 1}", "We deliberately inject an X gate. This is a controlled error, not a realistic hardware noise model.")
+    c = repetition_circuit(math.pi if logical_one else 0.0, 0)
+    add("corrected", "Three physical qubits / Três qubits físicos", c, [None, None, 78], "Recovered q0 equals the input logical bit", "A three-qubit repetition code corrects one X error. Read q0 as the RIGHTMOST bit. Ancillas retain syndrome information. It does not protect against phase errors or demonstrate fault tolerance.")
+    return items
+
+def run_suite(selected_backend, shots=512, phase=0.0, logical_one=False):
+    shots = int(shots); phase = float(phase)
+    if not 32 <= shots <= 4096: raise ValueError("Shots must be between 32 and 4096")
+    if not math.isfinite(phase): raise ValueError("Phase must be finite")
+    items = experiments(phase, bool(logical_one))
+    circuits = transpile([x["circuit"] for x in items], selected_backend, optimization_level=1)
+    # One job per run, including on IonQ. Never create another provider here.
+    result = selected_backend.run(circuits, shots=shots).result()
+    output = []
+    for i, x in enumerate(items):
+        counts = result.get_counts(i)
+        output.append({k: v for k, v in x.items() if k != "circuit"} | {"counts": counts, "diagram": str(x["circuit"].draw(output="text"))})
+    return json.dumps({"videos": VIDEOS, "shots": shots, "phase": phase, "logical_one": bool(logical_one), "experiments": output}, ensure_ascii=False)
+
+def main(shots: int = 512, phase_degrees: float = 0.0,
+         logical_one: bool = False, language: str = "en"):
+    """Qollab supplies backend and calls main(); local runs use BasicSimulator."""
+    if language not in {video["id"] for video in VIDEOS}:
+        raise ValueError("Language must be en, es, pt-BR or pt-PT")
     print("Qubit Stories — Watch. Predict. Run. Explain.")
-    for video in report["videos"]:
-        print(video["title"], video["url"])
+    print("Videos open externally; no video files are stored in this project.")
+    for video in VIDEOS:
+        print("\n" + video["language"] + " — " + video["title"])
+        print(video["url"])
+    print("\nThis effort is supported by Qollab & IonQ")
+    if "backend" not in globals():
+        raise RuntimeError("Qollab must supply backend. For a local demo run python main.py.")
+    report = json.loads(run_suite(backend, shots, math.radians(phase_degrees), logical_one))
+    video = next(video for video in report["videos"] if video["id"] == language)
+    print("\nPhase (degrees):", phase_degrees)
+    print("Shots:", report["shots"])
     for lesson in report["experiments"]:
         print("\n" + lesson["title"])
+        print("Watch chapter", lesson["chapter"], "(" + video["language"] + "):")
+        print(video["chapters"][lesson["chapter"] - 1])
         print("Predict:", lesson["prediction"])
         print(lesson["diagram"])
         print("Exact ideal probabilities:", lesson["ideal"])
         print("Backend counts:", lesson["counts"])
         print(lesson["explanation"])
-    print("This effort is supported by Qollab & IonQ")
+    print("\nTry phase_degrees=180 or logical_one=True, then run again.")
 
-# Qollab calls main automatically. A local run uses only its free simulator.
+
+# Qollab calls main automatically. Do not submit two backend jobs on import.
 if __name__ == "__main__" and "backend" not in globals():
     from qiskit.providers.basic_provider import BasicSimulator
     backend = BasicSimulator()
